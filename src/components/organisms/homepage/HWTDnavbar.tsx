@@ -27,21 +27,21 @@ export default function HWTDnavbar() {
     <div className=" flex flex-col justify-center  items-center ">
       <TypographyH2 text="What to see & do" />
       <div className=" flex gap-2">
-        <Link href="/" legacyBehavior passHref>
+        {/* <Link href="/" legacyBehavior passHref>
           <span className={getLinkStyle("/")}>In focus</span>
-        </Link>
+        </Link> */}
 
-        <Link href="/explore" legacyBehavior passHref>
+        {/* <Link href="/explore" legacyBehavior passHref>
           <span className={getLinkStyle("/explore")}>Activities</span>
-        </Link>
+        </Link> */}
 
-        <Link href="/about" legacyBehavior passHref>
+        {/* <Link href="/about" legacyBehavior passHref>
           <span className={getLinkStyle("/about")}>Tourist attractions</span>
-        </Link>
-
+        </Link> */}
+        {/* 
         <Link href="/contact" legacyBehavior passHref>
           <span className={getLinkStyle("/contact")}>Excursions</span>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
