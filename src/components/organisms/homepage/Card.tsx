@@ -70,13 +70,13 @@ export const BlogCard: React.FC<CityCardProps> = ({
   text,
 }) => {
   return (
-    <div className=" flex h-72  w-52 flex-col md:h-96 md:w-72  p-1">
+    <div className=" flex h-72 w-52 flex-col md:h-96 md:w-72  p-1 overflow-hidden rounded-md">
       <Image
         src={imageUrl}
         alt={alt}
         height={400}
         width={400}
-        className=" bg-cover h-36 md:h-72 w-full"
+        className=" bg-cover h-36 md:h-72 w-full rounded-sm"
       />
       <div>{title}</div>
       <div>{text}</div>

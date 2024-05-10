@@ -80,7 +80,7 @@ export default function BlogHomePage() {
             {cities.map((city, index) => (
               <CarouselItem
                 key={index}
-                className="basis-1/2 md:basis-1/3 lg:basis-1/4"
+                className="flex gap-1 basis-1/2 md:basis-1/3 lg:basis-1/4"
               >
                 <BlogCard
                   imageUrl={city.imageUrl}
