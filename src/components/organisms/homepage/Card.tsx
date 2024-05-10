@@ -62,3 +62,24 @@ export const CityCard: React.FC<CityCardProps> = ({
     </div>
   );
 };
+
+export const BlogCard: React.FC<CityCardProps> = ({
+  imageUrl = "",
+  alt,
+  title,
+  text,
+}) => {
+  return (
+    <div className=" flex h-72  w-52 flex-col md:h-96 md:w-72  p-1">
+      <Image
+        src={imageUrl}
+        alt={alt}
+        height={400}
+        width={400}
+        className=" bg-cover h-36 md:h-72 w-full"
+      />
+      <div>{title}</div>
+      <div>{text}</div>
+    </div>
+  );
+};

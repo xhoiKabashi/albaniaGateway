@@ -1,5 +1,6 @@
 // `app/page.tsx` is the UI for the `/` URL
 
+import BlogHomePage from "@/components/organisms/homepage/BlogHomePage";
 import HWTDnavbar from "@/components/organisms/homepage/HWTDnavbar";
 import HeaderHomeImage from "@/components/organisms/homepage/HeaderHomeImage";
 import OnFocusGrid from "@/components/organisms/homepage/OnFocusGrid";
@@ -12,6 +13,7 @@ export default function Page() {
       <HWTDnavbar />
       <OnFocusGrid />
       <VisitCities />
+      <BlogHomePage />
     </main>
   );
 }

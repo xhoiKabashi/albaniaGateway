@@ -3,7 +3,7 @@ import Card from "./Card";
 
 export default function OnFocusGrid() {
   return (
-    <div className=" flex flex-col h-screen w-[90%] lg:grid   lg:grid-cols-6 lg:grid-rows-4 gap-3 lg:w-[80%]  lg:h-[530px] py-10">
+    <div className=" flex flex-col md:grid  md:grid-cols-2 h-screen w-[90%] lg:grid   lg:grid-cols-6 lg:grid-rows-4 gap-3 lg:w-[80%]  lg:h-[530px] py-10">
       <Card
         style="lg:col-span-2 lg:row-span-4"
         alt="test"
