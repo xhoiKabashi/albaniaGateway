@@ -1,3 +1,4 @@
+"use client";
 import {
   Menubar,
   MenubarContent,
@@ -8,6 +9,16 @@ import {
   MenubarTrigger,
 } from "@/components/ui/menubar";
 import Link from "next/link";
+import { useState } from "react";
+import { HiBars4 } from "react-icons/hi2";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 const Header = () => {
   return (
@@ -113,7 +124,22 @@ const Header = () => {
         </MenubarMenu>
       </Menubar>
 
-      <div className=" lg:hidden">Hamburger</div>
+      <div className=" lg:hidden">
+        <Sheet>
+          <SheetTrigger>
+            <HiBars4 className=" text-2xl" />
+          </SheetTrigger>
+          <SheetContent>
+            <SheetHeader>
+              <SheetTitle>Are you absolutely sure?</SheetTitle>
+              <SheetDescription>
+                This action cannot be undone. This will permanently delete your
+                account and remove your data from our servers.
+              </SheetDescription>
+            </SheetHeader>
+          </SheetContent>
+        </Sheet>
+      </div>
     </div>
   );
 };
