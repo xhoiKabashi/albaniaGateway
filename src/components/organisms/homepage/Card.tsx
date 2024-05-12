@@ -1,13 +1,15 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import React from "react";
 
 // Define the types for the props that the Card component expects
 interface CardProps {
-  style?: string; // style is optional and should be a string
+  style?: string; //
   imageUrl?: string; //
   alt: string; //
-  text: string; // text is optional
+  text: string;
+  href: string;
 }
 
 // main card, used in What to see & do
@@ -17,9 +19,11 @@ const Card: React.FC<CardProps> = ({
   imageUrl = "",
   alt,
   text,
+  href,
 }) => {
   return (
-    <div
+    <Link
+      href={href}
       className={`relative flex flex-col w-full bg-black ${style} overflow-hidden rounded-2xl  min-h-52 `}
     >
       <Image
@@ -32,7 +36,7 @@ const Card: React.FC<CardProps> = ({
       <h1 className="absolute top-3/4 left-44 transform -translate-x-1/2 -translate-y-1/2 text-white text-xl font-semibold text-balance w-[80%]">
         {text}
       </h1>
-    </div>
+    </Link>
   );
 };
 

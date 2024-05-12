@@ -23,7 +23,9 @@ import {
 const Header = () => {
   return (
     <div className=" flex   justify-between lg:justify-center px-2 h-16  lg:gap-16 p-1 w-full  items-center fixed top-0 bg-white z-10">
-      <h1 className=" text-violet-500">Albania Gateway</h1>
+      <Link href="/">
+        <h1 className=" text-violet-500">Albania Gateway</h1>
+      </Link>
       <Menubar className=" hidden lg:flex">
         <MenubarMenu>
           <MenubarTrigger>

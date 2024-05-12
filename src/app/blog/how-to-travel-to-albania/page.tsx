@@ -3,23 +3,29 @@ import { TypographyH2, TypographyH3 } from "@/components/atoms/TypographyH2";
 import Image from "next/image";
 import React from "react";
 
-interface CardProps {
-  para: string; // text is optional
-}
-
 export default function Page() {
   return (
     <div className="py-16 min-h-screen relative">
+      <title>Exploring Albania: A Comprehensive Guide</title>
+      <meta
+        name="description"
+        content="Discover the best ways to arrive in Albania by sea, air, or land with this comprehensive guide. Explore ports, airports, and border crossings for your adventure in the Balkans."
+      />
+      <meta
+        name="keywords"
+        content="Albania travel, Albania arrival, Albania ports, Albania airports, Albania border crossings, Balkans travel, European travel,"
+      />
+
       <header className="w-full h-64 relative">
         <Image
-          alt={"sdfsdf"}
+          alt="Panoramic view of the Air Albania at Tirana International Airport"
           src={"/air-albania.jpg"}
           layout="fill"
           objectFit="cover"
         />
         <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
       </header>
-      <div className="relative -inset-y-14 flex items-center text-back justify-center text-white  text-center md:text-4xl font-bold">
+      <div className="relative -inset-y-14 flex items-center text-back justify-center text-white  text-center md:text-4xl font-bold px-3">
         Exploring Albania: A Comprehensive Guide to Arrival by Sea, Sky, and
         Land
       </div>
