@@ -7,22 +7,31 @@ interface CardProps {
   style?: string; // style is optional and should be a string
   imageUrl?: string; //
   alt: string; //
+  text: string; // text is optional
 }
 
 // main card, used in What to see & do
 
-const Card: React.FC<CardProps> = ({ style = "", imageUrl = "", alt }) => {
+const Card: React.FC<CardProps> = ({
+  style = "",
+  imageUrl = "",
+  alt,
+  text,
+}) => {
   return (
     <div
-      className={`flex flex-col  w-full bg-black ${style} overflow-hidden  rounded-2xl`}
+      className={`relative flex flex-col w-full bg-black ${style} overflow-hidden rounded-2xl  min-h-52 `}
     >
       <Image
         alt={alt}
         src={imageUrl}
-        className=" h-full w-full hover:scale-105 transition-all duration-700 ease-out"
-        width={400}
-        height={400}
+        layout="fill" // Fill the container
+        objectFit="cover" // Adjust to cover the container
+        className="hover:scale-105 transition-all duration-700 ease-out h-[500px]"
       />
+      <h1 className="absolute top-3/4 left-44 transform -translate-x-1/2 -translate-y-1/2 text-white text-xl font-semibold text-balance w-[80%]">
+        {text}
+      </h1>
     </div>
   );
 };
