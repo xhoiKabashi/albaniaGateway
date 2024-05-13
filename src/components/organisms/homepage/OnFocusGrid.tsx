@@ -7,7 +7,7 @@ const cardProps = [
     style: "lg:col-span-2 lg:row-span-4",
     alt: "test",
     imageUrl: "/al-riviera-header.jpg",
-    text: "Experience Albania Riviera",
+    text: "A Journey Down the Albanian Riviera",
     href: "/blog/riviera",
   },
   {
@@ -20,16 +20,16 @@ const cardProps = [
   {
     style: "lg:col-start-3 lg:col-span-2 lg:row-start-3 lg:row-span-2",
     alt: "test",
-    imageUrl: "/travelhero2.png",
-    text: "Experience Albania Riviera",
-    href: "/blog/how-to-travel-to-albania",
+    imageUrl: "/lek-onfocus.jpg",
+    text: "The Tale of Two Leks: Understanding Albania’s Currency Confusion",
+    href: "/blog/albania-currency",
   },
   {
     style: "lg:col-start-5 lg:col-span-2 lg:row-span-4",
     alt: "test",
-    imageUrl: "/travelhero2.png",
-    text: "Experience Albania Riviera",
-    href: "/blog/how-to-travel-to-albania",
+    imageUrl: "/Gjirokastër-Castle-1.jpg",
+    text: " Exploring Albania's Enigmatic Castles: A Journey Through Time",
+    href: "/blog/castles-in-albania",
   },
 ];
 

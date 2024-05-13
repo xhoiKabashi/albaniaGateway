@@ -26,13 +26,16 @@ const Card: React.FC<CardProps> = ({
       href={href}
       className={`relative flex flex-col w-full bg-black ${style} overflow-hidden rounded-2xl  min-h-52 `}
     >
-      <Image
-        alt={alt}
-        src={imageUrl}
-        layout="fill" // Fill the container
-        objectFit="cover" // Adjust to cover the container
-        className="hover:scale-105 transition-all duration-700 ease-out h-[500px]"
-      />
+      <div className="relative w-full h-full group">
+        <Image
+          alt={alt}
+          src={imageUrl}
+          layout="fill" // Fill the container
+          objectFit="cover" // Adjust to cover the container
+          className=" transition-all duration-700 ease-out group-hover:scale-105"
+        />
+        <div className="absolute inset-0 bg-black opacity-50 group-hover:text-gray-900"></div>
+      </div>
       <h1 className="absolute top-3/4 left-44 transform -translate-x-1/2 -translate-y-1/2 text-white text-xl font-semibold text-balance w-[80%]">
         {text}
       </h1>
