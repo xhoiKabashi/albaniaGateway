@@ -20,7 +20,7 @@ export default function Page() {
 
       <header className="w-full h-64 relative">
         <Image
-          alt="Image of the Albanian lek Banknotes, 200 and 500, 1000 and 2000 Lek"
+          alt="Image of the Gjirokastër Castle, in focus is the Albanian flag"
           src={"/Gjirokastër-Castle-1.jpg"}
           layout="fill"
           objectFit="cover"
