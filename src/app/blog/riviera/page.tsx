@@ -30,7 +30,7 @@ export default function Page() {
       </div>
       <div className="w-full flex flex-col justify-center items-center">
         <section className=" w-[90%] md:w-[70%] text-balance  space-y-3">
-          <TypographyH2 text="Introduction" />
+          <TypographyH2 h1={false} text="Introduction" />
           <p>
             The turquoise waters of the Mediterranean lap against hidden coves,
             dramatic cliffs pierce the azure sky, and charming villages whisper
@@ -39,7 +39,7 @@ export default function Page() {
             the crowds and inflated prices – here, on the shores of the Ionian
             Sea, awaits an authentic Balkan adventure.
           </p>
-          <TypographyH3 text="Adriatic Sea:" />
+          <TypographyH3 h1={false} text="Adriatic Sea:" />
 
           <p>
             Our journey begins as the Adriatic Sea kisses Albania's northern
@@ -75,7 +75,7 @@ export default function Page() {
             Albanian life. But the true magic lies south, where the Ionian Sea
             unveils its breathtaking beauty.
           </p>
-          <TypographyH3 text="Ionian Sea:" />
+          <TypographyH3 h1={false} text="Ionian Sea:" />
           <p>
             Passing Llogara National Park, a scenic mountain pass, the panorama
             explodes into a tapestry of turquoise waters, verdant hills, and
@@ -128,7 +128,10 @@ export default function Page() {
             experiences. So, ditch the crowds and embark on an unforgettable
             journey down this hidden gem of the Mediterranean.
           </p>
-          <TypographyH3 text="Here are some additional tips for your Albanian Riviera adventure:" />
+          <TypographyH3
+            h1={false}
+            text="Here are some additional tips for your Albanian Riviera adventure:"
+          />
           <p>
             Getting There: Tirana International Airport is the main gateway to
             Albania. From there, you can take buses, ferries, or rent a car to

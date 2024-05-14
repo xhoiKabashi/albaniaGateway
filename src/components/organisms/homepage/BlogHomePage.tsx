@@ -73,7 +73,7 @@ const cities = [
 export default function BlogHomePage() {
   return (
     <div className="flex flex-col w-[90%]  justify-center items-center  md:w-[90%]">
-      <TypographyH2 text="A diversity in great cuisine" />
+      <TypographyH2 h1={false} text="A diversity in great cuisine" />
       <div className=" w-full mt-6  flex justify-center">
         <Carousel className="w-[85%] md:w-full ">
           <CarouselContent className="md:w-full">

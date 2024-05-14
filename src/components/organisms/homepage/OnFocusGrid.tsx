@@ -36,7 +36,7 @@ const cardProps = [
 export default function OnFocusGrid() {
   return (
     <div className=" w-full flex flex-col justify-center items-center">
-      <TypographyH2 text="In focus" />
+      <TypographyH2 h1={false} text="In focus" />
       <div className="flex flex-col md:grid md:grid-cols-2 w-[90%] lg:grid lg:grid-cols-6 lg:grid-rows-4 gap-3 lg:w-[80%] lg:h-[530px] py-10">
         {cardProps.map((props, index) => (
           <Card key={index} {...props} />

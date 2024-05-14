@@ -73,7 +73,7 @@ const cities = [
 export default function VisitCities() {
   return (
     <div className="flex flex-col w-[90%]  justify-center items-center  md:w-[80%]">
-      <TypographyH2 text="Explore Nearby Cities" />
+      <TypographyH2 h1={false} text="Explore Nearby Cities" />
       <div className=" w-full mt-6  flex justify-center">
         <Carousel className="w-[85%] md:w-full ">
           <CarouselContent className="md:w-full">
