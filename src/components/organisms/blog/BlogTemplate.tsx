@@ -33,17 +33,19 @@ const CommonPage: React.FC<CommonPageTypes> = ({
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
 
-      <header className="w-full h-64 relative">
-        <Image
-          alt={pageTitle}
-          src={headerImageSrc}
-          fill
-          style={{ objectFit: "cover" }}
-          priority={true}
-        />
-        <div className="absolute inset-0 bg-black opacity-50 "></div>
-      </header>
-      <div className="relative -inset-y-14 flex items-center text-back justify-center text-white  text-center md:text-4xl font-bold px-3">
+      <div className=" w-full flex justify-center">
+        <header className="w-full md:w-[70%] h-64 md:h-96 relative flex flex-col rounded-md overflow-hidden">
+          <Image
+            alt={pageTitle}
+            src={headerImageSrc}
+            fill
+            style={{ objectFit: "cover" }}
+            priority={true}
+          />
+          <div className="absolute inset-0 bg-black opacity-50 "></div>
+        </header>
+      </div>
+      <div className="relative -inset-y-20 flex items-center text-back justify-center text-white  text-center md:text-2xl font-bold px-3">
         {pageTitle}
       </div>
       <div className="w-full flex flex-col justify-center items-center">

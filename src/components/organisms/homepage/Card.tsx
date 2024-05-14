@@ -6,7 +6,7 @@ import React from "react";
 // Define the types for the props that the Card component expects
 interface CardProps {
   style?: string; //
-  imageUrl?: string; //
+  imageUrl?: any; //
   alt: string; //
   text: string;
   href: string;
@@ -30,10 +30,12 @@ const Card: React.FC<CardProps> = ({
         <Image
           alt={alt}
           src={imageUrl}
-          fill
           style={{ objectFit: "cover" }}
           className="transition-all duration-700 ease-out group-hover:scale-105"
+          fill
           priority={true}
+          placeholder="blur"
+          sizes="(min-width: 808px) 50vw, 100vw"
         />
 
         <div className="absolute inset-0  opacity-35 bg-black group-hover:text-gray-900"></div>
