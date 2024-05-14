@@ -20,8 +20,8 @@ export default function Page() {
         <Image
           alt="Panoramic view of the Air Albania at Tirana International Airport"
           src={"/riviera-page-header.jpg"}
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: "cover" }}
         />
         <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
       </header>

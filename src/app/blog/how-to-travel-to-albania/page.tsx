@@ -20,8 +20,8 @@ export default function Page() {
         <Image
           alt="Panoramic view of the Air Albania at Tirana International Airport"
           src={"/air-albania.jpg"}
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: "cover" }}
         />
         <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
       </header>
@@ -31,7 +31,7 @@ export default function Page() {
       </div>
       <div className="w-full flex flex-col justify-center items-center">
         <section className=" w-[90%] md:w-[70%] text-balance  space-y-3">
-          <TypographyH2 text="Introduction" />
+          <TypographyH2 text="Introduction" h1={false} />
           <p>
             Albania, a jewel nestled in the Balkans, boasts stunning coastlines,
             rugged mountains, and a rich cultural tapestry. Whether you're drawn
@@ -41,7 +41,7 @@ export default function Page() {
             enter this enchanting country, from the azure waters of the Adriatic
             Sea to the towering peaks of the Albanian Alps.
           </p>
-          <TypographyH3 text="Arriving by Sea:" />
+          <TypographyH3 h1={false} text="Arriving by Sea:" />
           <p>
             For those seeking a scenic approach, arriving in Albania by sea
             offers breathtaking views of the coastline and easy access to
@@ -59,7 +59,7 @@ export default function Page() {
             Durres, it offers an alternative entry point for those traveling
             from Italy.
           </p>
-          <TypographyH3 text="Arriving by Air:" />
+          <TypographyH3 h1={false} text="Arriving by Air:" />
           <p>
             For travelers seeking a quicker arrival or arriving from more
             distant locations, Albania's international airports provide
@@ -80,7 +80,7 @@ export default function Page() {
             convenient access to the northern regions of Albania, including the
             stunning Valbona Valley and Theth National Park.
           </p>
-          <TypographyH3 text="Arriving by Land:" />
+          <TypographyH3 h1={false} text="Arriving by Land:" />
           <p>
             For those arriving overland from neighboring countries, Albania's
             well-connected road network facilitates easy entry by bus, car, or
@@ -105,7 +105,7 @@ export default function Page() {
             readily available on both sides of the border.
           </p>
 
-          <TypographyH3 text="Conclusion:" />
+          <TypographyH3 h1={false} text="Conclusion:" />
           <p>
             Whether you arrive by sea, sky, or land, entering Albania marks the
             beginning of an adventure filled with natural beauty, rich history,
