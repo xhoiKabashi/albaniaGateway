@@ -9,7 +9,7 @@ import {
   MenubarTrigger,
 } from "@/components/ui/menubar";
 import Link from "next/link";
-import { useState } from "react";
+
 import { HiBars4 } from "react-icons/hi2";
 import {
   Sheet,
@@ -86,16 +86,18 @@ const Header = () => {
           </MenubarContent>
         </MenubarMenu>
         <MenubarMenu>
-          <MenubarTrigger>Where to stay</MenubarTrigger>
+          <MenubarTrigger>Visit Albania</MenubarTrigger>
           <MenubarContent>
-            <MenubarItem>
-              New Tab <MenubarShortcut>⌘T</MenubarShortcut>
-            </MenubarItem>
-            <MenubarItem>New Window</MenubarItem>
+            <Link href="/visit-albania/visit-albania-by-air">
+              <MenubarItem>By air</MenubarItem>
+            </Link>
+            <Link href="/visit-albania/visit-albania-by-sea">
+              <MenubarItem>By sea</MenubarItem>
+            </Link>
             <MenubarSeparator />
-            <MenubarItem>Share</MenubarItem>
-            <MenubarSeparator />
-            <MenubarItem>Print</MenubarItem>
+            <Link href="/visit-albania/visit-albania-by-land">
+              <MenubarItem>By land</MenubarItem>
+            </Link>
           </MenubarContent>
         </MenubarMenu>
         <MenubarMenu>
