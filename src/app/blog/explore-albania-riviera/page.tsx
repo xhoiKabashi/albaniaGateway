@@ -2,7 +2,7 @@
 import React from "react";
 import BlogPost from "@/components/organisms/blog/TemplateBloge";
 import { ParaBlog, TitleBlog } from "@/components/atoms/TypographyH2";
-import { blogData } from "@/data/blog/how-to-travel-to-tirana";
+import { blogData } from "@/data/blog/albania-riviera-data";
 
 const page = () => {
   return (

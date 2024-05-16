@@ -12,7 +12,7 @@ const cardProps = [
     alt: "Image of Ksamil,Sarande, an image taken from drone",
     imageUrl: riviera,
     text: "A Journey Down the Albanian Riviera",
-    href: "/blog/albania-riviera",
+    href: "/blog/explore-albania-riviera",
   },
   {
     style: "lg:col-start-3 lg:col-span-2 lg:row-start-1 lg:row-span-2",
@@ -26,14 +26,14 @@ const cardProps = [
     alt: "Image of the Albanian lek Banknotes, 200 and 500, 1000 and 2000 Lek",
     imageUrl: lekonfocus,
     text: "The Tale of Two Leks: Understanding Albania’s Currency Confusion",
-    href: "/blog/albania-currency",
+    href: "/blog/what-do-you-need-to-know-about-albania-currency",
   },
   {
     style: "lg:col-start-5 lg:col-span-2 lg:row-span-4",
     alt: "Image of the Gjirokastër Castle, in focus is the Albanian flag",
     imageUrl: gjirokastër,
     text: " Exploring Albania's Enigmatic Castles: A Journey Through Time",
-    href: "/blog/castles-in-albania",
+    href: "/blog/top-ten-castles-in-albania",
   },
 ];
 

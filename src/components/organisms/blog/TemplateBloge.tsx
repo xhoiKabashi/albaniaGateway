@@ -40,6 +40,7 @@ const BlogPost = ({
             width={400}
             height={400}
             sizes="(min-width: 808px) 50vw, 100vw"
+            placeholder="blur"
           />
         </div>
         <div className="">{children}</div>
