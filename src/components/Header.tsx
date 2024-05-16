@@ -89,15 +89,17 @@ const Header = () => {
           <MenubarTrigger>Visit Albania</MenubarTrigger>
           <MenubarContent>
             <Link href="/visit-albania/visit-albania-by-air">
-              <MenubarItem>By air</MenubarItem>
-            </Link>
-            <Link href="/visit-albania/visit-albania-by-sea">
-              <MenubarItem>By sea</MenubarItem>
+              <MenubarItem>Visit by air</MenubarItem>
             </Link>
             <MenubarSeparator />
+            <Link href="/visit-albania/visit-albania-by-sea">
+              <MenubarItem>Visit by sea</MenubarItem>
+            </Link> 
+            <MenubarSeparator />
             <Link href="/visit-albania/visit-albania-by-land">
-              <MenubarItem>By land</MenubarItem>
+              <MenubarItem>Visit by land</MenubarItem>
             </Link>
+            <MenubarSeparator />
           </MenubarContent>
         </MenubarMenu>
         <MenubarMenu>

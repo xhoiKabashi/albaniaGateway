@@ -11,7 +11,7 @@ export const TitleBlog: React.FC<TypographyH2Props> = ({ text }) => {
 };
 
 export const ParaBlog: React.FC<TypographyH2Props> = ({ text }) => {
-  return <h2 className="mb-5 text-base leading-6">{text}</h2>;
+  return <p className="mb-5 text-base leading-6">{text}</p>;
 };
 
 export const TypographyH2: React.FC<TypographyH2Props> = ({ text }) => {
