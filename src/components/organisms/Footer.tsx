@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className=" flex  gap-3 flex-col w-full h-60 border-t-2 justify-center items-center  bg-slate-50">
+    <div className=" flex  pl-6 pt-5 gap-10 flex-col w-full h-60 border-t-2 justify-center md:items-center  bg-slate-50">
       <div className=" flex items-center gap-3">
         <Image
           src="/logo.png"
@@ -13,27 +14,18 @@ const Footer = () => {
         />
 
         <ul>Albaniagateway</ul>
+        <p>© 2024</p>
       </div>
-      <div className=" flex">
-        <p>
-          All maps, graphics, flags, photos and original descriptions © 2024
-          worldatlas.com
-        </p>
-      </div>
-      <div className=" flex">
-        <ul>Home</ul>
-        <ul>Contact Us</ul>
-        <ul>Privacy</ul>
-        <ul>Copyright</ul>
-        <ul>Fact Checking Policy</ul>
-        <ul>Corrections Policy</ul>
-        <ul>Ownership Policy</ul>
-      </div>
-      <div className=" flex">
-        <ul>Social Media</ul>
-        <ul>Social Media</ul>
-        <ul>Social Media</ul>
-        <ul>Social Media</ul>
+      <div className=" flex flex-col md:flex-row gap-3 md:gap-6">
+        <ul>
+          <Link href="/disclaimer">Disclaimer</Link>
+        </ul>
+        <ul>
+          <Link href="/cookies-policy">Cookies Policy</Link>
+        </ul>
+        <ul>
+          <Link href="/privacy-policy">Privacy Policy</Link>
+        </ul>
       </div>
     </div>
   );
