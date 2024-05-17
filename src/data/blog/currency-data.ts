@@ -4,7 +4,7 @@ import lek from "../../../public/lek.jpg";
 
 export const blogData = {
   title: "The Tale of Two Leks: Understanding Albania’s Currency Confusion",
-  date: "25/06/2024",
+  date: "18/05/2024",
   readTime: "7 min read",
   imageSrc: lek,
   imageAlt: "test",

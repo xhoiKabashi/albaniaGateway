@@ -4,7 +4,7 @@ import durresport from "../../../public/durres-port.jpg";
 
 export const blogData = {
   title: " Setting Sail for Albania: Your Guide to Arriving by Ferry",
-  date: "18/06/2024",
+  date: "18/05/2024",
   readTime: "12 min read",
   imageSrc: durresport,
   imageAlt: "Image of a Ferry sealing in Durres Port",

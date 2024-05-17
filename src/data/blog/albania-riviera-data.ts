@@ -2,7 +2,7 @@ import lek from "../../../public/al-riviera-header.jpg";
 
 export const blogData = {
   title: "A Journey Down the Albanian Riviera",
-  date: "25/06/2024",
+  date: "18/05/2024",
   readTime: "7 min read",
   imageSrc: lek,
   imageAlt: "test",

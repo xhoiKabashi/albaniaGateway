@@ -4,7 +4,7 @@ import durresport from "../../../public/border-albania.jpg";
 
 export const blogData = {
   title: "Hitting the Road: Your Guide to Traveling to Albania by Land",
-  date: "18/06/2024",
+  date: "18/05/2024",
   readTime: "12 min read",
   imageSrc: durresport,
   imageAlt: "Image of a Ferry sealing in Durres Port",

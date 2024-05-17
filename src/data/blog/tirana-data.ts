@@ -1,6 +1,6 @@
 export const tiranaData = {
   title: "VISIT TIRANA – THE FUNKIEST CAPITAL IN EUROPE",
-  date: "25/06/2024",
+  date: "18/05/2024",
   readTime: "7 min read",
   imageSrc: "/visit-tirana-30.jpg",
   imageAlt: "test",

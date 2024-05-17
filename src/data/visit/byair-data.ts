@@ -4,7 +4,7 @@ import airportImage from "../../../public/air-albania.jpg";
 
 export const blogData = {
   title: " Your Guide to Flying in and Exploring the Land of Eagles",
-  date: "25/06/2024",
+  date: "18/05/2024",
   readTime: "12 min read",
   imageSrc: airportImage,
   imageAlt: "Image of one of the Air Albania airplane in the TIA airport",

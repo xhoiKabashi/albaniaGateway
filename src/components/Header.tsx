@@ -19,85 +19,47 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import PopUp from "./organisms/mobile-menu/PopUp";
 
 const Header = () => {
   return (
     <div className=" flex   justify-between lg:justify-center px-2 h-16  shadow-sm lg:gap-16 p-1 w-full  items-center fixed top-0 bg-white z-10">
       <Link href="/">
-        <h1 className=" text-violet-500">Albania Gateway</h1>
+        <h1 className=" text-sky-500">Albania Gateway</h1>
       </Link>
       <Menubar className=" hidden lg:flex">
         <MenubarMenu>
           <MenubarTrigger>
-            <h2>Why Albania</h2>
+            <Link href="/visit-albania/why-visit-albania">Why Albania</Link>
           </MenubarTrigger>
-          <MenubarContent>
-            <MenubarItem>
-              <Link href="/new-tab" legacyBehavior passHref>
-                <h3>Why Albania</h3>
-              </Link>
-            </MenubarItem>
-            <MenubarItem>
-              <Link href="/new-tab">
-                <h3>Why Albania</h3>
-              </Link>
-            </MenubarItem>
-            <MenubarSeparator />
-            <MenubarItem>
-              <Link href="/new-tab">
-                <h3>Why Albania</h3>
-              </Link>
-            </MenubarItem>
-            <MenubarSeparator />
-          </MenubarContent>
         </MenubarMenu>
         <MenubarMenu>
           <MenubarTrigger>
             <h2>What to see & do</h2>
           </MenubarTrigger>
           <MenubarContent>
-            <MenubarItem>
-              <h3>Why Albania</h3>
-            </MenubarItem>
-            <MenubarItem>
-              <h3>Why Albania</h3>
-            </MenubarItem>
-            <MenubarSeparator />
-            <MenubarItem>
-              <h3>Why Albania</h3>
-            </MenubarItem>
-            <MenubarSeparator />
-            <MenubarItem>
-              <h3>Why Albania</h3>
-            </MenubarItem>
+            <MenubarItem>Coming soon </MenubarItem>
           </MenubarContent>
         </MenubarMenu>
         <MenubarMenu>
           <MenubarTrigger>Where to go</MenubarTrigger>
           <MenubarContent>
-            <MenubarItem>
-              New Tab <MenubarShortcut>⌘T</MenubarShortcut>
-            </MenubarItem>
-            <MenubarItem>New Window</MenubarItem>
-            <MenubarSeparator />
-            <MenubarItem>Share</MenubarItem>
-            <MenubarSeparator />
-            <MenubarItem>Print</MenubarItem>
+            <MenubarItem>Coming soon </MenubarItem>
           </MenubarContent>
         </MenubarMenu>
         <MenubarMenu>
           <MenubarTrigger>Visit Albania</MenubarTrigger>
           <MenubarContent>
             <Link href="/visit-albania/visit-albania-by-air">
-              <MenubarItem>Visit by air</MenubarItem>
+              <MenubarItem>by air</MenubarItem>
             </Link>
             <MenubarSeparator />
             <Link href="/visit-albania/visit-albania-by-sea">
-              <MenubarItem>Visit by sea</MenubarItem>
-            </Link> 
+              <MenubarItem> by sea</MenubarItem>
+            </Link>
             <MenubarSeparator />
             <Link href="/visit-albania/visit-albania-by-land">
-              <MenubarItem>Visit by land</MenubarItem>
+              <MenubarItem> by land</MenubarItem>
             </Link>
             <MenubarSeparator />
           </MenubarContent>
@@ -105,47 +67,11 @@ const Header = () => {
         <MenubarMenu>
           <MenubarTrigger>Travel here & around</MenubarTrigger>
           <MenubarContent>
-            <MenubarItem>
-              New Tab <MenubarShortcut>⌘T</MenubarShortcut>
-            </MenubarItem>
-            <MenubarItem>New Window</MenubarItem>
-            <MenubarSeparator />
-            <MenubarItem>Share</MenubarItem>
-            <MenubarSeparator />
-            <MenubarItem>Print</MenubarItem>
-          </MenubarContent>
-        </MenubarMenu>
-        <MenubarMenu>
-          <MenubarTrigger>Language</MenubarTrigger>
-          <MenubarContent>
-            <MenubarItem>
-              English <MenubarShortcut>⌘T</MenubarShortcut>
-            </MenubarItem>
-            <MenubarItem>Italian</MenubarItem>
-            <MenubarSeparator />
-            <MenubarItem>German</MenubarItem>
-            <MenubarSeparator />
-            <MenubarItem>Spania</MenubarItem>
+            <MenubarItem>Coming soon </MenubarItem>
           </MenubarContent>
         </MenubarMenu>
       </Menubar>
-
-      <div className=" lg:hidden">
-        <Sheet>
-          <SheetTrigger>
-            <HiBars4 className=" text-2xl" />
-          </SheetTrigger>
-          <SheetContent>
-            <SheetHeader>
-              <SheetTitle>Are you absolutely sure?</SheetTitle>
-              <SheetDescription>
-                This action cannot be undone. This will permanently delete your
-                account and remove your data from our servers.
-              </SheetDescription>
-            </SheetHeader>
-          </SheetContent>
-        </Sheet>
-      </div>
+      <PopUp />
     </div>
   );
 };

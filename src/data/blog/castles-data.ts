@@ -5,7 +5,7 @@ import lek from "../../../public/Gjirokastër-Castle-1.jpg";
 
 export const blogData = {
   title: "Exploring Albania's Enigmatic Castles: A Journey Through Time",
-  date: "25/06/2024",
+  date: "18/05/2024",
   readTime: "7 min read",
   imageSrc: lek,
   imageAlt: "test",

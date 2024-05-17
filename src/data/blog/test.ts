@@ -3,7 +3,7 @@
 export const blogData = {
   title:
     "Why visit the Greek island of Lesvos: 7 reasons to choose it as your vacation",
-  date: "25/06/2024",
+  date: "18/05/2024",
   readTime: "6 min read",
   imageSrc: "/test.jpg",
   imageAlt: "test",

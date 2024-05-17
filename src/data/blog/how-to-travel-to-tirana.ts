@@ -5,7 +5,7 @@ import plane from "../../../public/air-albania.jpg";
 export const blogData = {
   title:
     "Exploring Albania: A Comprehensive Guide to Arrival by Sea, Sky, and Land",
-  date: "25/06/2024",
+  date: "18/05/2024",
   readTime: "7 min read",
   imageSrc: plane,
   imageAlt: "test",
