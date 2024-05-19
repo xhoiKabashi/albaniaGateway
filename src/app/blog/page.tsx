@@ -4,8 +4,8 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <MainWrapper className=" pt-16">
-      <div className=" ">
+    <MainWrapper>
+      <div className=" flex">
         <Map />
       </div>
     </MainWrapper>
