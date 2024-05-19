@@ -25,8 +25,8 @@ const CityMarker = ({
       style={{ top: `${top}px`, right: `${right}px` }}
       onMouseEnter={() => onHover(name)}
     >
-      <div className="h-7 w-7 rounded-full opacity-50  group-hover:bg-red-600 transition-colors duration-300"></div>
-      <div className="h-4 uppercase text-slate-800 text-[10px] tracking-widest font-semibold group-hover:text-red-600 transition-colors duration-300">
+      <div className="h-7 w-7 rounded-full opacity-50  cursor-pointer  group-hover:bg-red-600 transition-colors duration-300"></div>
+      <div className="h-4 uppercase text-slate-800 text-[10px] tracking-widest font-semibold group-hover:text-red-600 transition-colors duration-300 cursor-pointer">
         {name}
       </div>
     </div>
