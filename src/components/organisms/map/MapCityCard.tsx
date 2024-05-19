@@ -77,7 +77,7 @@ const MapCityCard = ({ city }: CityCardProps) => {
     },
   };
 
-  const info = city ? cityInfo[city] : null;
+  const info = city ? cityInfo[city] : cityInfo["Tirane"];
 
   if (!info) {
     return null;
