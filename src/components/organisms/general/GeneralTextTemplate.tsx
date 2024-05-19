@@ -1,5 +1,6 @@
 import React from "react";
 import { TitleBlog, ParaBlog } from "@/components/atoms/TypographyH2";
+import { MainWrapper, SecondaryWrapper } from "@/components/atoms/Wrapper";
 
 interface Section {
   title: string;
@@ -16,16 +17,18 @@ export default function GeneralTextTemplate({
   sections,
 }: PageProps) {
   return (
-    <section className=" mt-24  flex justify-center">
-      <div className=" w-[90%] md:w-[60%]">
-        <h1 className="  text-2xl mb-16">{mainTitle}</h1>
+    <MainWrapper>
+      <SecondaryWrapper>
+        <header>
+          <h1 className="  text-2xl mb-16">{mainTitle}</h1>
+        </header>
         {sections.map((section, index) => (
-          <div key={index}>
+          <section key={index}>
             <TitleBlog text={section.title} />
             <ParaBlog text={section.para} />
-          </div>
+          </section>
         ))}
-      </div>
-    </section>
+      </SecondaryWrapper>
+    </MainWrapper>
   );
 }

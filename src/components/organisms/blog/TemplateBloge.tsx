@@ -1,6 +1,7 @@
 // components/BlogPost.js
 import React from "react";
 import Image from "next/image";
+import { MainWrapper, SecondaryWrapper } from "@/components/atoms/Wrapper";
 
 interface BlogPostType {
   title: string;
@@ -20,9 +21,9 @@ const BlogPost = ({
   children,
 }: BlogPostType) => {
   return (
-    <div className="my-20 flex flex-col items-center">
-      <div className="w-[90%] md:w-[60%]">
-        <div className="mb-4">
+    <MainWrapper>
+      <SecondaryWrapper>
+        <header className="mb-4">
           <h3 className="text-xl tracking-widest text-blue-800">{date}</h3>
           <h3 className="text-red-600 font-semibold tracking-widest mb-10 uppercase">
             {readTime}
@@ -42,10 +43,10 @@ const BlogPost = ({
             sizes="(min-width: 808px) 50vw, 100vw"
             placeholder="blur"
           />
-        </div>
-        <div className="">{children}</div>
-      </div>
-    </div>
+        </header>
+        <section className="">{children}</section>
+      </SecondaryWrapper>
+    </MainWrapper>
   );
 };
 

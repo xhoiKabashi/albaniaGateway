@@ -65,10 +65,9 @@ const Header = () => {
           </MenubarContent>
         </MenubarMenu>
         <MenubarMenu>
-          <MenubarTrigger>Travel here & around</MenubarTrigger>
-          <MenubarContent>
-            <MenubarItem>Coming soon </MenubarItem>
-          </MenubarContent>
+          <MenubarTrigger>
+            <Link href="/blog">Blog</Link>
+          </MenubarTrigger>
         </MenubarMenu>
       </Menubar>
       <PopUp />

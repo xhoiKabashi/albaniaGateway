@@ -52,7 +52,7 @@ const page = () => {
       <LinkToGoogle link="https://www.google.com/maps/dir//JC4H%2B37+Vlora+International+Airport,+Akerni,+Albania/@40.605315,19.3458162,12z/data=!4m9!4m8!1m0!1m5!1m1!1s0x134549007225ef5f:0xf7dd4da4465f5e38!2m2!1d19.4282176!2d40.6052139!3e0?entry=ttu" />
       <TitleBlog text="Gearing Up for Takeoff: Who Flies to Albania?" />
       <ParaBlog text="The good news is, Albania is well-connected with flights from across Europe. Here's a comprehensive list of airlines that operate flights to Tirana, Albania's capital city:" />
-      <div>
+      <section>
         <TitleBlog text="Major Airlines:" />
         <ul className=" list-disc mb-4">
           {majorAirlines.map((airline, index) => (
@@ -66,7 +66,7 @@ const page = () => {
           ))}
         </ul>
         <ParaBlog text="These airlines offer flights from various European cities, including Milan, Istanbul, London, and Bologna." />
-      </div>
+      </section>
       <TitleBlog text="Cost Considerations: How Much Does it Cost to Fly to Albania?" />
       <ParaBlog text="Flight prices can vary depending on several factors, including the time of year, your departure city, and the airline you choose. However, you can expect to find flights ranging from a budget-friendly €57 (during the off-season) to over €100 for peak travel times." />
       <TitleBlog text="Landing Permissions: Do I Need a Visa?" />
