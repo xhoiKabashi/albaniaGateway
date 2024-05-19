@@ -60,7 +60,7 @@ const MapCityCard = ({ city }: CityCardProps) => {
       image: tropoje,
     },
     Tepelena: {
-      name: "Tropoja",
+      name: "Tepelena",
       image: tropoje,
     },
     Saranda: {
@@ -77,22 +77,18 @@ const MapCityCard = ({ city }: CityCardProps) => {
     },
   };
 
-  const info = cityInfo[city] ? cityInfo[city] : cityInfo["Tirane"];
+  const info = city ? cityInfo[city] : null;
 
   if (!info) {
     return null;
   }
 
-  if (typeof info === "string") {
-    return <div className="w-60 bg-sky-200 p-2">{info}</div>;
-  }
-
   return (
-    <div className=" bg-sky-20 flex flex-col justify-center items-center">
+    <div className="bg-sky-20 flex flex-col justify-center items-center">
       <Image
         src={info.image}
         alt={info.name}
-        className="w-full "
+        className="w-full"
         style={{ objectFit: "cover" }}
         priority={true}
         width={400}
@@ -100,9 +96,9 @@ const MapCityCard = ({ city }: CityCardProps) => {
         sizes="(min-width: 808px) 50vw, 100vw"
         placeholder="blur"
       />
-
       <div>{info.name}</div>
     </div>
   );
 };
+
 export default MapCityCard;
