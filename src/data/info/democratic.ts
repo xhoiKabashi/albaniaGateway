@@ -15,7 +15,13 @@ export const blogData = {
     paragraphsWithTitle: [
       {
         title: "Political Structure",
-        para: "1. **President**: The President of Albania is elected by the Parliament and has a mainly ceremonial role.\n2. **Prime Minister**: The Prime Minister is appointed by the President and is the head of the executive branch, responsible for the day-to-day administration of the government.\n3. **Parliament**: The Albanian Parliament, known as the Kuvendi, is a unicameral body with 140 members elected to four-year terms. It is responsible for passing laws and policies."
+        para: "President: The President of Albania is elected by the Parliament and has a mainly ceremonial role",
+      },
+      {
+        para: "Prime Minister: The Prime Minister is appointed by the President and is the head of the executive branch, responsible for the day-to-day administration of the government."
+      },
+      {
+        para: "Parliament: The Albanian Parliament, known as the Kuvendi, is a unicameral body with 140 members elected to four-year terms. It is responsible for passing laws and policies."
       },
       {
         title: "Democratic Development",
