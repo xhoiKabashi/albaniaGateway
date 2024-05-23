@@ -44,7 +44,9 @@ export default function RootLayout({
         className={` ${inter.className} flex flex-col gap-2 justify-center items-center`}
       >
         <Header />
-        <main className=" w-full h-full">{children}</main>
+        <main className=" w-full h-full flex  items-center flex-col ">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

@@ -38,9 +38,9 @@ const Card: React.FC<CardProps> = ({
           sizes="(min-width: 808px) 50vw, 100vw"
         />
 
-        <div className="absolute inset-0  opacity-35 bg-black group-hover:text-gray-900"></div>
+        <div className="absolute inset-0  opacity-45 bg-black group-hover:text-gray-900"></div>
       </div>
-      <h1 className="absolute top-3/4 left-44 transform -translate-x-1/2 -translate-y-1/2 text-white text-xl font-semibold text-balance w-[80%]">
+      <h1 className="absolute top-3/4 left-44 transform -translate-x-1/2 -translate-y-1/2 text-white  text-base font-bold  tracking-wider  w-[90%]">
         {text}
       </h1>
     </Link>

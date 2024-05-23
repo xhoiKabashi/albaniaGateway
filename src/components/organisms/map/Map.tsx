@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import MapCityCard from "@/components/organisms/map/MapCityCard";
+import { TypographyH2 } from "@/components/atoms/TypographyH2";
 
 interface CityTypes {
   top: number;
@@ -23,7 +24,7 @@ const CityMarker = ({
         reverse ? "flex-row-reverse" : ""
       }`}
       style={{ top: `${top}px`, right: `${right}px` }}
-      onMouseEnter={() => onHover(name)}
+      onClick={() => onHover(name)}
     >
       <div className="h-7 w-7 rounded-full opacity-50  cursor-pointer  group-hover:bg-red-600 transition-colors duration-300"></div>
       <div className="h-4 uppercase text-slate-800 text-[10px] tracking-widest font-semibold group-hover:text-red-600 transition-colors duration-300 cursor-pointer">
@@ -67,37 +68,33 @@ export default function Map() {
   }));
 
   return (
-    <div className=" flex flex-col    md:flex-row">
-      <MapCityCard city={hoveredCity} />
-      <div className="flex flex-col items-end relative">
-        <div className="relative w-[350px] h-[430px]">
-          <Image
-            src="/map-cities.png"
-            alt="Albania map"
-            layout="fill"
-            objectFit="cover" // Ensures the image fits well
-          />
+    <div className="   w-full flex flex-col items-center text-center">
+      <TypographyH2 h1={false} text="Explore Cities" />
+      <p className=" w-[90%] md:w-[70%]">
+        Albanian cities blend rich history, vibrant culture, and stunning
+        natural beauty. From the lively capital Tirana to the coastal charms of
+        Durres and Saranda, each city offers unique experiences. Explore
+        historic sites in Berat and Gjirokaster, both UNESCO World Heritage
+        Sites, and enjoy the pristine beaches of Vlora along the Albanian
+        Riviera. Discover the diverse and captivating allure of Albania s urban
+        landscapes.
+      </p>
+      <div className=" flex flex-col   justify-between  md:flex-row">
+        <div className="flex flex-col items-end relative scale-90 md:scale-100">
+          <div className="relative w-[350px] h-[430px]">
+            <Image
+              src="/map-cities.png"
+              alt="Albania map"
+              layout="fill"
+              objectFit="cover" // Ensures the image fits well
+            />
+          </div>
+          {newCities.map((city, index) => (
+            <CityMarker key={index} {...city} onHover={setHoveredCity} />
+          ))}
         </div>
-        {newCities.map((city, index) => (
-          <CityMarker key={index} {...city} onHover={setHoveredCity} />
-        ))}
+        <MapCityCard city={hoveredCity} />
       </div>
     </div>
   );
 }
-
-// Shkoder: "Shkoder information",
-// Lezhe: "Lezhe information",
-// Kruje: "Kruje information",
-// Tirane: "Tirane information",
-// Durres: "Durres information",
-// Elbasan: "Elbasan information",
-// Pogradec: "Pogradec information",
-// Korca: "Korca information",
-// Berat: "Berat information",
-// Vlora: "Vlora information",
-// "Dhermi & Himara": "Dhermi & Himara information",
-// Tepelena: "Tepelena information",
-// Saranda: "Saranda information",
-// Gjirokaster: "Gjirokaster information",
-// Permet: "Permet information",

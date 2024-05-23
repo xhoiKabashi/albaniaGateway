@@ -5,13 +5,18 @@ import BlogHomePage from "@/components/organisms/homepage/BlogHomePage";
 import HeaderHomeImage from "@/components/organisms/homepage/HeaderHomeImage";
 import OnFocusGrid from "@/components/organisms/homepage/OnFocusGrid";
 import VisitCities from "@/components/organisms/homepage/VisitCities";
+import WhyVisitTirana from "@/components/organisms/homepage/WhyVisitTirana";
+import Map from "@/components/organisms/map/Map";
 
 export default function Page() {
   return (
-    <main className="w-full flex flex-col justify-center items-center pt-16">
+    <main className="w-full md:w-[70%]  mt-16">
       <HeaderHomeImage />
+      <WhyVisitTirana />
       <OnFocusGrid />
-      <VisitCities />
+      <Map />
+
+      {/* <VisitCities /> */}
       <BlogHomePage />
     </main>
   );

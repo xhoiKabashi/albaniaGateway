@@ -152,7 +152,7 @@ const MapCityCard = ({ city }: CityCardProps) => {
   }
 
   return (
-    <div className="bg-sky-20 flex flex-col justify-center items-center rounded-md mb-10">
+    <div className="bg-sky-20 flex flex-col justify-center items-center rounded-md mb-10  scale-90 md:scale-100">
       <div className="relative  h-72 w-80 overflow-hidden">
         <Image
           src={info.imageUrl}
