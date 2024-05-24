@@ -7,6 +7,7 @@ import OnFocusGrid from "@/components/organisms/homepage/OnFocusGrid";
 import VisitCities from "@/components/organisms/homepage/VisitCities";
 import WhyVisitTirana from "@/components/organisms/homepage/WhyVisitTirana";
 import Map from "@/components/organisms/map/Map";
+import Blog from "./blog/page";
 
 export default function Page() {
   return (
@@ -15,9 +16,7 @@ export default function Page() {
       <WhyVisitTirana />
       <OnFocusGrid />
       <Map />
-
-      {/* <VisitCities /> */}
-      <BlogHomePage />
+      <Blog />
     </main>
   );
 }

@@ -7,9 +7,11 @@ export default function WhyVisitTirana() {
     <div className=" flex  flex-col items-center  w-full my-10 gap-4  text-center">
       <TypographyH2 h1={false} text="Why visit Albania?" />
       <p className=" w-[90%] md:w-[70%]">
-        Verona: a UNESCO world heritage city and the home of Romeo and Juliet, a
-        place of history, culture, music, architecture and high society. A land
-        of great traditions, from opera to fine food and wine.
+        Albania, a hidden gem in the Balkans, offers a unique blend of rich
+        history, stunning landscapes, and warm hospitality. Whether you`re an
+        adventurer, a history buff, or simply looking for a relaxing getaway,
+        Albania has something to offer everyone. Here are some compelling
+        reasons why you should consider visiting Albania.
       </p>
 
       <Image src="/whyvisitTirana.jpg" height={200} width={700} alt="test" />

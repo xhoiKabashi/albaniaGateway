@@ -55,7 +55,7 @@ export default function PopUp() {
               </AccordionItem>
             </Accordion>
             <SheetDescription className=" text-base text-slate-950">
-              <Link href="/visit-albania/why-visit-albania">
+              <Link href="/blog">
                 <SheetTrigger>Blog</SheetTrigger>
               </Link>
             </SheetDescription>

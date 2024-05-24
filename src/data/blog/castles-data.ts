@@ -1,7 +1,6 @@
 // data.ts
 
-import { title } from "process";
-import lek from "../../../public/Gjirokastër-Castle-1.jpg";
+import lek from "../../../public/blog/Gjirokastër-Castle-1.jpg";
 
 export const blogData = {
   title: "Exploring Albania's Enigmatic Castles: A Journey Through Time",

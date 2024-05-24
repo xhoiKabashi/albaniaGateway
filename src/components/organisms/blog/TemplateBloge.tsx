@@ -23,9 +23,9 @@ const BlogPost = ({
   return (
     <MainWrapper>
       <SecondaryWrapper>
-        <header className="mb-4">
+        <header className="md:mb-4">
           <h3 className="text-xl tracking-widest text-blue-800">{date}</h3>
-          <h3 className="text-red-600 font-semibold tracking-widest mb-10 uppercase">
+          <h3 className="text-red-600 font-semibold tracking-widest mb-4 md:mb-6 uppercase">
             {readTime}
           </h3>
           <h1 className="font-light   text-left text-cyan-500 text-3xl md:text-6xl  md:text-start leading-7 tracking-wider">

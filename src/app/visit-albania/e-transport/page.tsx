@@ -2,21 +2,21 @@
 import React from "react";
 import BlogPost from "@/components/organisms/blog/TemplateBloge";
 import { ParaBlog, TitleBlog } from "@/components/atoms/TypographyH2";
-import { tiranaData } from "@/data/blog/tirana-data";
+import { blogData } from "@/data/visit/e-transport.data";
 
 const page = () => {
   return (
     <BlogPost
-      title={tiranaData.title}
-      date={tiranaData.date}
-      readTime={tiranaData.readTime}
-      imageSrc={tiranaData.imageSrc}
-      imageAlt={tiranaData.imageAlt}
+      title={blogData.title}
+      date={blogData.date}
+      readTime={blogData.readTime}
+      imageSrc={blogData.imageSrc}
+      imageAlt={blogData.imageAlt}
     >
-      {tiranaData.paragraphs.map((para, index) => (
+      {blogData.paragraphs.map((para, index) => (
         <ParaBlog key={index} text={para.text} />
       ))}
-      {tiranaData.paragraphsWithTitle.map((reason, index) => (
+      {blogData.paragraphsWithTitle.map((reason, index) => (
         <React.Fragment key={index}>
           <TitleBlog text={reason.title} />
           <ParaBlog text={reason.text} />

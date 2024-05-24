@@ -10,15 +10,6 @@ import {
 } from "@/components/ui/menubar";
 import Link from "next/link";
 
-import { HiBars4 } from "react-icons/hi2";
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
 import PopUp from "./organisms/mobile-menu/PopUp";
 
 const Header = () => {
@@ -34,32 +25,22 @@ const Header = () => {
           </MenubarTrigger>
         </MenubarMenu>
         <MenubarMenu>
-          <MenubarTrigger>
-            <h2>What to see & do</h2>
-          </MenubarTrigger>
+          <MenubarTrigger>Useful information</MenubarTrigger>
           <MenubarContent>
-            <MenubarItem>Coming soon </MenubarItem>
-          </MenubarContent>
-        </MenubarMenu>
-        <MenubarMenu>
-          <MenubarTrigger>Where to go</MenubarTrigger>
-          <MenubarContent>
-            <MenubarItem>Coming soon </MenubarItem>
-          </MenubarContent>
-        </MenubarMenu>
-        <MenubarMenu>
-          <MenubarTrigger>Visit Albania</MenubarTrigger>
-          <MenubarContent>
+            <Link href="/visit-albania/e-transport">
+              <MenubarItem>eTransport</MenubarItem>
+            </Link>
+            <MenubarSeparator />
             <Link href="/visit-albania/visit-albania-by-air">
-              <MenubarItem>by air</MenubarItem>
+              <MenubarItem>Visit by air</MenubarItem>
             </Link>
             <MenubarSeparator />
             <Link href="/visit-albania/visit-albania-by-sea">
-              <MenubarItem> by sea</MenubarItem>
+              <MenubarItem>Visit by sea</MenubarItem>
             </Link>
             <MenubarSeparator />
             <Link href="/visit-albania/visit-albania-by-land">
-              <MenubarItem> by land</MenubarItem>
+              <MenubarItem>Visit by land</MenubarItem>
             </Link>
             <MenubarSeparator />
           </MenubarContent>

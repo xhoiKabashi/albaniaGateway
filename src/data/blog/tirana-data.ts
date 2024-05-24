@@ -1,8 +1,10 @@
+import Tirana from "../../../public/tiranaWhyVisit.jpg";
+
 export const tiranaData = {
   title: "VISIT TIRANA – THE FUNKIEST CAPITAL IN EUROPE",
   date: "18/05/2024",
   readTime: "7 min read",
-  imageSrc: "/visit-tirana-30.jpg",
+  imageSrc: Tirana,
   imageAlt: "test",
 
   paragraphs: [

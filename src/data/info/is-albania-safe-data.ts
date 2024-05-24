@@ -1,6 +1,6 @@
 // data.ts
 
-import nato from "../../../public/info/nato.jpg";
+import nato from "../../../public/blog/policia.jpg";
 
 export const blogData = {
   title: "Is Albania Safe? A Comprehensive Guide for 2024?",
@@ -49,34 +49,33 @@ export const blogData = {
       para: "Violent Crime**: There has been a slight uptick in violent crime, with a 1.2% increase in reported cases. However, these incidents remain relatively rare.",
     },
     {
-       para: "Theft and Burglary: These crimes have remained steady, with no significant increase or decrease compared to the previous year. Petty theft, especially in tourist-heavy areas, is something to be aware of."
+      para: "Theft and Burglary: These crimes have remained steady, with no significant increase or decrease compared to the previous year. Petty theft, especially in tourist-heavy areas, is something to be aware of.",
     },
     {
-        para: "Drug-Related Crimes**: These continue to decline, with a further 2% reduction in reported cases."
+      para: "Drug-Related Crimes**: These continue to decline, with a further 2% reduction in reported cases.",
     },
     {
-       title: "Tourist Safety Tips",
-       para: "While Albania is generally safe, here are some tips to ensure your trip is enjoyable and trouble-free:"
+      title: "Tourist Safety Tips",
+      para: "While Albania is generally safe, here are some tips to ensure your trip is enjoyable and trouble-free:",
     },
     {
-        para: "1. Stay Aware of Your Surroundings: As with any travel destination, being aware of your surroundings and keeping an eye on your belongings can prevent most petty crimes."
+      para: "1. Stay Aware of Your Surroundings: As with any travel destination, being aware of your surroundings and keeping an eye on your belongings can prevent most petty crimes.",
     },
     {
-        para: "2. Avoid Isolated Areas at Night: Stick to well-lit and populated areas, especially after dark."
+      para: "2. Avoid Isolated Areas at Night: Stick to well-lit and populated areas, especially after dark.",
     },
     {
-        para: "3. Use Reputable Transportation: Use official taxis or ride-sharing services rather than unlicensed vehicles."
+      para: "3. Use Reputable Transportation: Use official taxis or ride-sharing services rather than unlicensed vehicles.",
     },
     {
-        para: "4. Keep Valuables Secure: Use hotel safes for passports, extra cash, and other valuables. Carry only what you need when out exploring."    
+      para: "4. Keep Valuables Secure: Use hotel safes for passports, extra cash, and other valuables. Carry only what you need when out exploring.",
     },
     {
-        para: "5. **Respect Local Laws and Customs**: Understanding and respecting local customs and laws can help you avoid misunderstandings or legal issues."
+      para: "5. **Respect Local Laws and Customs**: Understanding and respecting local customs and laws can help you avoid misunderstandings or legal issues.",
     },
     {
-        title: "Conclusion",
-        para: "Albania is a beautiful and largely safe destination for travelers. While petty crime can occur, it is not prevalent enough to deter visitors. By staying informed and taking basic precautions, you can enjoy all that Albania has to offer. The latest crime statistics indicate a stable and improving safety environment, making Albania a welcoming place for tourists in 2024."
-    }
-
+      title: "Conclusion",
+      para: "Albania is a beautiful and largely safe destination for travelers. While petty crime can occur, it is not prevalent enough to deter visitors. By staying informed and taking basic precautions, you can enjoy all that Albania has to offer. The latest crime statistics indicate a stable and improving safety environment, making Albania a welcoming place for tourists in 2024.",
+    },
   ],
 };
