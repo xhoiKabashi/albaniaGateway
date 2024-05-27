@@ -1,5 +1,6 @@
 import { TypographyH2 } from "@/components/atoms/TypographyH2";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function WhyVisitTirana() {
@@ -15,6 +16,13 @@ export default function WhyVisitTirana() {
       </p>
 
       <Image src="/whyvisitTirana.jpg" height={200} width={700} alt="test" />
+      <Link
+        href={"/visit-albania/why-visit-albania"}
+        className=" bg-sky-500 text-white px-2  rounded-lg"
+      >
+        {" "}
+        Read more
+      </Link>
     </div>
   );
 }

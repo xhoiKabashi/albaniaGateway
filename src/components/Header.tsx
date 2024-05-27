@@ -21,9 +21,21 @@ const Header = () => {
       <Menubar className=" hidden lg:flex">
         <MenubarMenu>
           <MenubarTrigger>
+            <Link href="/">Home</Link>
+          </MenubarTrigger>
+        </MenubarMenu>
+        <MenubarMenu>
+          <MenubarTrigger>
             <Link href="/visit-albania/why-visit-albania">Why Albania</Link>
           </MenubarTrigger>
         </MenubarMenu>
+
+        <MenubarMenu>
+          <MenubarTrigger>
+            <Link href="/explore-cities">Explore Cities</Link>
+          </MenubarTrigger>
+        </MenubarMenu>
+
         <MenubarMenu>
           <MenubarTrigger>Useful information</MenubarTrigger>
           <MenubarContent>

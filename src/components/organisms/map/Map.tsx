@@ -70,7 +70,7 @@ export default function Map() {
   return (
     <div className="   w-full flex flex-col items-center text-center">
       <TypographyH2 h1={false} text="Explore Cities" />
-      <p className=" w-[90%] md:w-[70%]">
+      <p className=" w-[90%] md:w-[80%]">
         Albanian cities blend rich history, vibrant culture, and stunning
         natural beauty. From the lively capital Tirana to the coastal charms of
         Durres and Saranda, each city offers unique experiences. Explore

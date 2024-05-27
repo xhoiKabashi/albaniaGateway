@@ -4,7 +4,7 @@ import React from "react";
 
 interface BlogCards {
   imageUrl: any;
-  date: string;
+  date?: string;
   title: string;
   href: string;
 }
@@ -23,7 +23,7 @@ const BlogCard = ({ imageUrl, date, title, href }: BlogCards) => {
           objectFit="cover"
           className="rounded-t-2xl"
         />
-        <div className="absolute top-2 left-2 bg-sky-500 text-slate-50 px-2 py-1 rounded">
+        <div className="absolute top-2 left-2 bg-sky-500 text-slate-50 px-2 py-1 rounded  font-semibold tracking-wider">
           {date}
         </div>
       </div>

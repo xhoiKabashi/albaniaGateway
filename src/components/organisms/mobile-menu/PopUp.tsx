@@ -28,15 +28,31 @@ export default function PopUp() {
               Albania Gateway
             </SheetTitle>
             <SheetDescription className=" text-base text-slate-950">
+              <Link href="/">
+                <SheetTrigger>Home</SheetTrigger>
+              </Link>
+            </SheetDescription>
+            <SheetDescription className=" text-base text-slate-950">
               <Link href="/visit-albania/why-visit-albania">
                 <SheetTrigger>Why Albania?</SheetTrigger>
+              </Link>
+            </SheetDescription>
+
+            <SheetDescription className=" text-base text-slate-950">
+              <Link href="/explore-cities">
+                <SheetTrigger>Explore Cities</SheetTrigger>
               </Link>
             </SheetDescription>
             <Accordion type="single" collapsible>
               <AccordionItem value="item-3">
                 <AccordionTrigger className=" flex justify-center gap-3">
-                  Visit Albania
+                  Useful information
                 </AccordionTrigger>
+                <AccordionContent>
+                  <Link href="/visit-albania/e-transport">
+                    <SheetTrigger>eTransport</SheetTrigger>
+                  </Link>
+                </AccordionContent>
                 <AccordionContent>
                   <Link href="/visit-albania/visit-albania-by-air">
                     <SheetTrigger>by air</SheetTrigger>
