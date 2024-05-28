@@ -33,7 +33,7 @@ const Blog = () => {
       imageUrl: shkoder,
       date: "Shkodra",
       title: "Historic city by Lake Shkodra, featuring Rozafa Castle.",
-      href: "/explore-cities/shkoder",
+      href: "/explore-cities/shkodra",
     },
     {
       imageUrl: berat,
@@ -91,7 +91,7 @@ const Blog = () => {
       date: "Dhermi & Himara",
       title:
         "Beautiful coastal village with pristine beaches and vibrant nightlife.",
-      href: "/explore-cities/himara",
+      href: "/explore-cities/himara-dhermi",
     },
     {
       imageUrl: tepelena,
