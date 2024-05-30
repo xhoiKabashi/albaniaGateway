@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { MainWrapper, SecondaryWrapper } from "@/components/atoms/Wrapper";
 import {
   Accordion,
@@ -57,17 +57,19 @@ const page = ({
               <h2 className="text-red-600 font-semibold tracking-widest mb-4 md:mb-6 uppercase text-xl">
                 {estimatedReadingTime}
               </h2>
-              <h1 className=" text-xl md:text-4xl text-sky-500">{mainTitle}</h1>
+              <h1 className=" text-xl md:text-4xl text-sky-500 mb-2 md:mb-4">
+                {mainTitle}
+              </h1>
             </div>
             <Image
               src={imageSrc}
               alt={alt}
-              className="w-full my-12"
-              style={{ objectFit: "cover" }}
+              className=" my-12"
+              // style={{ objectFit: "cover" }}
               priority={true}
-              width={400}
+              width={600}
               height={400}
-              sizes="(min-width: 808px) 50vw, 100vw"
+              sizes="(min-width: 808px) 30vw, 30vw"
             />
           </header>
 

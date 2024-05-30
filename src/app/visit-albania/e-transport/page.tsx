@@ -3,6 +3,28 @@ import React from "react";
 import BlogPost from "@/components/organisms/blog/TemplateBloge";
 import { ParaBlog, TitleBlog } from "@/components/atoms/TypographyH2";
 import { blogData } from "@/data/visit/e-transport.data";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "What is eTransport?",
+  description:
+    "Discover the future of intercity road transport access in Albania with the eTransport platform. Learn how this innovative tool streamlines services for both transport companies and citizens, offering electronic ticketing and real-time information on lines, stations, terminals, and timetables.",
+  keywords:
+    "Albania,Albania eTransport,  Albania intercity transport, Albania road transport,Albania  air transport,Albania sea transport,Albania rail transport,Albania taxi service, Albania interurban transport,Albania transportation infrastructure",
+  openGraph: {
+    title: "What is eTransport?",
+    description:
+      "Discover the future of intercity road transport access in Albania with the eTransport platform. Learn how this innovative tool streamlines services for both transport companies and citizens, offering electronic ticketing and real-time information on lines, stations, terminals, and timetables.",
+    url: "https://albaniagateway.com/blog/what-is-etransport",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/visit/etransport.jpg",
+      width: 1260,
+      height: 800,
+    },
+    locale: "en-EN",
+  },
+};
 
 const page = () => {
   return (

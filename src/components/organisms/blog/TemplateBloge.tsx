@@ -1,6 +1,6 @@
 // components/BlogPost.js
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { MainWrapper, SecondaryWrapper } from "@/components/atoms/Wrapper";
 
 interface BlogPostType {
@@ -28,7 +28,7 @@ const BlogPost = ({
           <h3 className="text-red-600 font-semibold tracking-widest mb-4 md:mb-6 uppercase">
             {readTime}
           </h3>
-          <h1 className="font-light   text-left text-cyan-500 text-3xl md:text-6xl  md:text-start leading-7 tracking-wider">
+          <h1 className="font-light   text-left text-cyan-500 text-2xl md:text-5xl  md:text-start leading-7 tracking-wider mb-2 md:mb-4">
             {title}
           </h1>
 
@@ -36,9 +36,8 @@ const BlogPost = ({
             src={imageSrc}
             alt={imageAlt}
             className="w-full my-12"
-            style={{ objectFit: "cover" }}
             priority={true}
-            width={400}
+            width={600}
             height={400}
             sizes="(min-width: 808px) 50vw, 100vw"
             placeholder="blur"

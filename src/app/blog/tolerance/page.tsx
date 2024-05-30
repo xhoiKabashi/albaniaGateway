@@ -4,6 +4,30 @@ import BlogPost from "@/components/organisms/blog/TemplateBloge";
 import { ParaBlog, TitleBlog } from "@/components/atoms/TypographyH2";
 import { blogData } from "@/data/info/tolerance.data";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Albania and Religious Tolerance: A Model of Harmony and Coexistence",
+  description:
+    "Explore Albania's rich tradition of religious tolerance and coexistence. From its historical background to current initiatives, discover how Albania fosters unity among diverse faiths.",
+  keywords:
+    "Albania, religious tolerance, religious diversity, Albania culture, interfaith relations, Albania history, Albania religious institutions, secularism, religious freedom",
+  openGraph: {
+    title:
+      "Albania and Religious Tolerance: A Model of Harmony and Coexistence",
+    description:
+      "Explore Albania's rich tradition of religious tolerance and coexistence. From its historical background to current initiatives, discover how Albania fosters unity among diverse faiths.",
+    url: "https://albaniagateway.com/blog/albania-religious-tolerance",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/blog/tolerance.jpg",
+      width: 1260,
+      height: 800,
+    },
+    locale: "en-EN",
+  },
+};
+
 const page = () => {
   return (
     <BlogPost

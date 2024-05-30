@@ -4,6 +4,27 @@ import BlogPost from "@/components/organisms/blog/TemplateBloge";
 import { ParaBlog, TitleBlog } from "@/components/atoms/TypographyH2";
 import { blogData } from "@/data/visit/bysea-data";
 import LinkToGoogle from "@/components/atoms/Link";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Setting Sail for Albania: Your Guide to Arriving by Ferry",
+  description:
+    "Embark on a maritime adventure to Albania with this comprehensive guide to traveling by ferry. Discover the key ports, routes, ferry companies, ticket prices, and visa requirements for an unforgettable journey.",
+  keywords:
+    "Albania, ferry to Albania, traveling by ferry, Albanian ports, ferry routes,Albania ferry companies,Albania ferry ticket prices,Albania maritime adventure, travel by sea, Albania Seas, Adriatic Sea, Ionnian Sea, Travel from Italy, Travel from Greece, Travel from Durres, Travel from from Vlora, Travel from Saranda, Italy to Albania, Greece to Albania, Albania to Italy, Albania to Greece",
+  openGraph: {
+    title: "Setting Sail for Albania: Your Guide to Arriving by Ferry",
+    description:
+      "Embark on a maritime adventure to Albania with this comprehensive guide to traveling by ferry. Discover the key ports, routes, ferry companies, ticket prices, and visa requirements for an unforgettable journey.",
+    url: "https://albaniagateway.com/blog/arriving-by-ferry-in-albania",
+    siteName: "Albania Gateway",
+    images: {
+      url: "ferry-durres-port.jpg",
+      width: 1200,
+      height: 630,
+    },
+    locale: "en-EN",
+  },
+};
 
 const page = () => {
   return (

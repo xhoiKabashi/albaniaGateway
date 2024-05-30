@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import tropoje from "../../../../public/tropoje.jpg";
 import theth from "../../../../public/theth.jpg";
 import shkoder from "../../../../public/shkoder-card.jpg";

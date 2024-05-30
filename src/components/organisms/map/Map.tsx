@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import React, { useState } from "react";
 import MapCityCard from "@/components/organisms/map/MapCityCard";
 import { TypographyH2 } from "@/components/atoms/TypographyH2";

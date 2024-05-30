@@ -8,7 +8,12 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Albania Gateway",
+  metadataBase: new URL("https://albaniagateway.com"),
+
+  title: {
+    template: "%s | Albania Gateway",
+    default: "Albania Gateway",
+  },
   description:
     "Explore Albania like never before with our travel blog! Dive into crystal-clear waters along the stunning Albanian coast and hike through breathtaking mountains. Learn about Albania's fascinating history, visit charming villages, and taste delicious local food. Let us show you the beauty and excitement of Albania through our blog",
 };

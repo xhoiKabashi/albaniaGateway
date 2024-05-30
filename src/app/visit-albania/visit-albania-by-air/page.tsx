@@ -4,6 +4,28 @@ import BlogPost from "@/components/organisms/blog/TemplateBloge";
 import { ParaBlog, TitleBlog } from "@/components/atoms/TypographyH2";
 import { blogData } from "@/data/visit/byair-data";
 import LinkToGoogle from "@/components/atoms/Link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Your Guide to Flying in and Exploring the Land of Eagles",
+  description:
+    "Soar into Albania with this comprehensive guide to flying in and exploring the land of eagles. Discover the main airports, airlines, flight costs, and visa requirements for your unforgettable journey.",
+  keywords:
+    "Albania, flying to Albania, Tirana International Airport, Kukës International Airport Zayed, Vlora International Airport, airlines to Albania, flight costs to Albania,albania visa requirements",
+  openGraph: {
+    title: "Your Guide to Flying in and Exploring the Land of Eagles",
+    description:
+      "Soar into Albania with this comprehensive guide to flying in and exploring the land of eagles. Discover the main airports, airlines, flight costs, and visa requirements for your unforgettable journey.",
+    url: "https://albaniagateway.com/blog/your-guide-to-flying-in-and-exploring-the-land-of-eagles",
+    siteName: "Albania Gateway",
+    images: {
+      url: "air-albania-plane.jpg",
+      width: 1200,
+      height: 630,
+    },
+    locale: "en-EN",
+  },
+};
 
 const page = () => {
   const majorAirlines = [

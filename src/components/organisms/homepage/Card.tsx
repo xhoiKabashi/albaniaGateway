@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
 import React from "react";
@@ -30,9 +30,9 @@ const Card: React.FC<CardProps> = ({
         <Image
           alt={alt}
           src={imageUrl}
-          style={{ objectFit: "cover" }}
+          height={600}
+          width={600}
           className="transition-all duration-700 ease-out group-hover:scale-105"
-          fill
           priority={true}
           placeholder="blur"
           sizes="(min-width: 808px) 50vw, 100vw"

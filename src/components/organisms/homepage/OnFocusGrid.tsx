@@ -37,7 +37,7 @@ export default function OnFocusGrid() {
         relaxation, or cultural experiences, our spotlight highlights the most
         popular reads that will inspire your next journey.
       </p>
-      <div className="flex flex-col md:grid md:grid-cols-3  gap-3 w-[96%]  md:w-full lg:h-[300px] py-10">
+      <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3  gap-3 w-[96%]  md:w-full lg:h-[300px] py-10">
         {cardProps.map((props, index) => (
           <Card key={index} {...props} />
         ))}

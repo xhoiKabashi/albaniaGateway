@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import React from "react";
 
@@ -20,9 +20,11 @@ const BlogCard = ({ imageUrl, date, title, href, alt }: BlogCards) => {
         <Image
           src={imageUrl}
           alt={alt}
-          layout="fill"
           objectFit="cover"
           className="rounded-t-2xl"
+          height={400}
+          width={600}
+          priority
         />
         <div className="absolute top-2 left-2 bg-sky-500 text-slate-50 px-2 py-1 rounded  font-semibold tracking-wider">
           {date}
