@@ -2,10 +2,10 @@ import lek from "../../../public/al-riviera-header.jpg";
 
 export const blogData = {
   title: "A Journey Down the Albanian Riviera",
-  date: "18/05/2024",
-  readTime: "7 min read",
+  date: "31/05/2024",
+  readTime: "10 min read",
   imageSrc: lek,
-  imageAlt: "test",
+  imageAlt: "Image of Ksamil from above",
   paragraphs: [
     {
       text: "The turquoise waters of the Mediterranean lap against hidden coves, dramatic cliffs pierce the azure sky, and charming villages whisper tales of a bygone era. Welcome to the Albanian Riviera, a slice of paradise stretching along Albania's southwestern coastline. Forget the crowds and inflated prices – here, on the shores of the Ionian Sea, awaits an authentic Balkan adventure.",

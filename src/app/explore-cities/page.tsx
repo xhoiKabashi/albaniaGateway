@@ -28,12 +28,14 @@ const Blog = () => {
         "Tirana a vibrant capital, known for its lively nightlife and colorful buildings.",
       location: "Read more",
       href: "/explore-cities/tirana",
+      alt: "Image of Tirana",
     },
     {
       imageUrl: shkoder,
       date: "Shkodra",
       title: "Historic city by Lake Shkodra, featuring Rozafa Castle.",
       href: "/explore-cities/shkodra",
+      alt: "Image of Shkodra center",
     },
     {
       imageUrl: berat,
@@ -41,18 +43,21 @@ const Blog = () => {
       title:
         "UNESCO World Heritage site, famous for its Ottoman architecture and a thousand windows.",
       href: "/explore-cities/berat",
+      alt: "Image of Berat City",
     },
     {
       imageUrl: gjirokaster,
       date: "Gjirokastra",
       title: "Stone houses and the impressive Gjirokastër Castle",
       href: "/explore-cities/gjirokastra",
+      alt: "Image of Gjirokastra Castle",
     },
     {
       imageUrl: vlora,
       date: "Vlora",
       title: "Independence site with beautiful beaches and marine parks",
       href: "/explore-cities/vlora",
+      alt: "Image of Vlora",
     },
     {
       imageUrl: saranda,
@@ -60,18 +65,21 @@ const Blog = () => {
       title:
         " Coastal city near Butrint, known for clear waters and summer vibes.",
       href: "/explore-cities/saranda",
+      alt: "Image of Saranda sea",
     },
     {
       imageUrl: durres,
       date: "Durres",
       title: "Major port city with an ancient Roman amphitheater.",
       href: "/explore-cities/durres",
+      alt: "Image of Durres streets",
     },
     {
       imageUrl: korca,
       date: "Korca",
       title: "Cultural hub with museums and the famous Korçë Brewery",
       href: "/explore-cities/korca",
+      alt: "Image of Korca city center",
     },
     {
       imageUrl: pogradec,
@@ -79,12 +87,14 @@ const Blog = () => {
       title:
         "Picturesque town on Lake Ohrid, famous for its clear waters and serene landscapes.",
       href: "/explore-cities/pogradec",
+      alt: "Image of Pogradec from above",
     },
     {
       imageUrl: permet,
       date: "Permet",
       title: "Known for its natural hot springs and stunning canyons.",
       href: "/explore-cities/permet",
+      alt: "Image of Berat City",
     },
     {
       imageUrl: dhermia,
@@ -92,6 +102,7 @@ const Blog = () => {
       title:
         "Beautiful coastal village with pristine beaches and vibrant nightlife.",
       href: "/explore-cities/himara-dhermi",
+      alt: "Image of a Church in Dhermi",
     },
     {
       imageUrl: tepelena,
@@ -99,6 +110,7 @@ const Blog = () => {
       title:
         "Historic town known for its stunning landscapes and the Ali Pasha Tepelena Castle.",
       href: "/explore-cities/tepelena",
+      alt: "Image of Vjosa River",
     },
     {
       imageUrl: theth,
@@ -106,6 +118,7 @@ const Blog = () => {
       title:
         " Remote mountain village in the Albanian Alps, perfect for scenic hikes and exploring nature.",
       href: "/explore-cities/theth",
+      alt: "Image of Theth Church",
     },
     {
       imageUrl: lezha,
@@ -113,6 +126,7 @@ const Blog = () => {
       title:
         "Historic city featuring Skanderbeg's Memorial and the ancient Lezhë Castle.",
       href: "/explore-cities/lezha",
+      alt: "Image of Skanderbeg’s Memorial",
     },
     {
       imageUrl: kruja,
@@ -120,6 +134,7 @@ const Blog = () => {
       title:
         "Known for the Krujë Castle and the National Museum dedicated to Skanderbeg.",
       href: "/explore-cities/kruja",
+      alt: "Image of Kruja Castle",
     },
     {
       imageUrl: elbasan,
@@ -127,6 +142,7 @@ const Blog = () => {
       title:
         "Central city with a rich history, featuring the Elbasan Castle and its ancient walls.",
       href: "/explore-cities/elbasan",
+      alt: "Image of Elbasan City center",
     },
     {
       imageUrl: tropoja,
@@ -134,6 +150,7 @@ const Blog = () => {
       title:
         " Gateway to the Valbona Valley, ideal for hiking and nature enthusiasts",
       href: "/explore-cities/tropoja",
+      alt: "Image of Tropoja landscape",
     },
 
     // Add more blog data objects as needed
@@ -150,6 +167,7 @@ const Blog = () => {
             date={blog.date}
             title={blog.title}
             href={blog.href}
+            alt={blog.alt}
           />
         ))}
       </div>

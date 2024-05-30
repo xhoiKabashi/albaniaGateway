@@ -4,7 +4,7 @@ import tirana from "../../../public/visit/etransport.jpg";
 
 export const blogData = {
   title: "What is eTransport?",
-  date: "25/05/2024",
+  date: "28/05/2024",
   readTime: "10 min read",
   imageSrc: tirana,
   imageAlt:

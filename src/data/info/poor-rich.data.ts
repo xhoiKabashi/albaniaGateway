@@ -2,8 +2,8 @@ import albaniaEconomy from "../../../public/blog/rich.jpg";
 
 export const blogData = {
   title: "Is Albania a Rich or Poor Country?",
-  date: "21/05/2024",
-  readTime: "4 min read",
+  date: "31/05/2024",
+  readTime: "6 min read",
   imageSrc: albaniaEconomy,
   imageAlt: "A view of the Albanian economy",
   paragraphs: [

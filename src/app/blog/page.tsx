@@ -22,72 +22,84 @@ const Blog = () => {
       title: "A Journey Down the Albanian Riviera",
       location: "Read more",
       href: "/blog/explore-albania-riviera",
+      alt: "Image of Albania Rivera",
     },
     {
       imageUrl: packUp,
       date: "May 26",
       title: "A Comprehensive Guide to Arrival by Sea, Sky, and Land",
       href: "/blog/how-to-travel-to-albania",
+      alt: "Image of a travel backpack",
     },
     {
       imageUrl: Money,
       date: "May 26",
       title: "Understanding Albania’s Currency Confusion",
       href: "/blog/what-do-you-need-to-know-about-albania-currency",
+      alt: "Image of Albania Currency",
     },
     {
       imageUrl: church,
       date: "May 26",
       title: "Is Albania a Christian Country?",
       href: "/blog/albania-christian-country",
+      alt: "Image of an Albania Church",
     },
     {
       imageUrl: xhamia,
       date: "May 26",
       title: "Is Albania a Muslim Country?",
       href: "/blog/albania-muslim-country",
+      alt: "Image of an Albania Mosque",
     },
     {
       imageUrl: democracy,
       date: "May 26",
       title: "Is Albania a Democratic Country?",
       href: "/blog/albania-a-democratic-country",
+      alt: "Image of People protesting in Tirana",
     },
     {
       imageUrl: castle,
       date: "May 26",
       title: "Exploring Albania's Enigmatic Castles",
       href: "/blog/top-ten-castles-in-albania",
+      alt: "Image of Gjirokaster Castle",
     },
     {
       imageUrl: nato,
       date: "May 26",
       title: "Is Albania in Nato?",
       href: "/blog/albania-in-nato",
+      alt: "Image of Albania and Nato flags",
     },
     {
       imageUrl: policia,
       date: "May 26",
       title: "Is Albania Safe?",
       href: "/blog/is-albania-safe",
+      alt: "Image of a couple of Police Officers",
     },
     {
       imageUrl: eu,
       date: "May 26",
       title: "Is Albania Safe?",
       href: "/blog/is-albania-in-eu",
+      alt: "Image of European Union flag",
     },
     {
       imageUrl: rich,
       date: "May 26",
       title: "Is Albania a Rich or Poor Country?",
       href: "/blog/is-albania-rich",
+      alt: "Image of Financial Services",
     },
     {
       imageUrl: tolerance,
       date: "May 26",
       title: "Albania and Religious Tolerance",
       href: "/blog/tolerance",
+      alt: "Image of Albanian Clerks in Paris",
     },
 
     // Add more blog data objects as needed
@@ -104,6 +116,7 @@ const Blog = () => {
             date={blog.date}
             title={blog.title}
             href={blog.href}
+            alt={blog.alt}
           />
         ))}
       </div>

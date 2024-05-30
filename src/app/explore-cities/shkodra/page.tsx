@@ -11,6 +11,7 @@ import {
 
 export default function page() {
   const estimatedReadingTime = "Shkodra"; // Replace with actual time if needed
+  const alt = "Image of Shkodra center";
   const mainTitle =
     "Exploring Shkodër: A Cultural and Historical Gem in Northern Albania"; // Replace with actual title
   const contentData = [
@@ -56,6 +57,7 @@ export default function page() {
       estimatedReadingTime={estimatedReadingTime}
       mainTitle={mainTitle}
       imageSrc={imageSrc}
+      alt={alt}
     >
       <Title text="I. Introduction" />
       <SecondTitle text="Brief Overview of the City" />

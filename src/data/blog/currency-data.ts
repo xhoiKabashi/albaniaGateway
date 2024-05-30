@@ -4,10 +4,10 @@ import lek from "../../../public/lek.jpg";
 
 export const blogData = {
   title: "The Tale of Two Leks: Understanding Albania’s Currency Confusion",
-  date: "18/05/2024",
+  date: "31/05/2024",
   readTime: "7 min read",
   imageSrc: lek,
-  imageAlt: "test",
+  imageAlt: "Image of Albanias Banknotes",
   paragraphs: [
     {
       text: "Albania, a country steeped in history and boasting stunning landscapes, is a popular tourist destination. But for first-time visitors, navigating the currency can be a bit tricky. You might encounter terms like 'old lek' and 'new lek,' leaving you scratching your head and wondering how much that charming souvenir actually costs.",

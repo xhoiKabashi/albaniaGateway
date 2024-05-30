@@ -7,9 +7,10 @@ interface BlogCards {
   date?: string;
   title: string;
   href: string;
+  alt: string;
 }
 
-const BlogCard = ({ imageUrl, date, title, href }: BlogCards) => {
+const BlogCard = ({ imageUrl, date, title, href, alt }: BlogCards) => {
   return (
     <Link
       href={href}
@@ -18,7 +19,7 @@ const BlogCard = ({ imageUrl, date, title, href }: BlogCards) => {
       <div className="relative w-full h-56">
         <Image
           src={imageUrl}
-          alt="Event Image"
+          alt={alt}
           layout="fill"
           objectFit="cover"
           className="rounded-t-2xl"

@@ -7,7 +7,7 @@ export const blogData = {
   date: "18/05/2024",
   readTime: "3 min read",
   imageSrc: nato,
-  imageAlt: "test",
+  imageAlt: "Image of Nato and Albanian Flag",
   paragraphs: [
     {
       para: "Yes, Albania is a member of NATO. Albania joined the North Atlantic Treaty Organization (NATO) on April 1, 2009. This membership marked a significant step in the country’s post-communist development, enhancing its security and defense capabilities. As a NATO member, Albania participates in various alliance missions and activities, contributing to collective defense and regional stability.",

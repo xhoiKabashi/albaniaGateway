@@ -2,10 +2,10 @@ import albaniaReligion from "../../../public/blog/xhamia.jpg";
 
 export const blogData = {
   title: "Is Albania a Muslim Country?",
-  date: "21/05/2024",
-  readTime: "4 min read",
+  date: "31/05/2024",
+  readTime: "5 min read",
   imageSrc: albaniaReligion,
-  imageAlt: "Religious symbols in Albania",
+  imageAlt: "Image of The Great Mosque of Tirana or Namazgah Mosque",
   paragraphs: [
     {
       para: "Albania is a unique country when it comes to religion. While a significant portion of its population identifies as Muslim, Albania is known for its religious tolerance and secularism. The country does not have an official state religion, and its constitution guarantees freedom of religion.",

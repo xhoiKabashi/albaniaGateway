@@ -5,10 +5,10 @@ import plane from "../../../public/air-albania.jpg";
 export const blogData = {
   title:
     "Exploring Albania: A Comprehensive Guide to Arrival by Sea, Sky, and Land",
-  date: "18/05/2024",
+  date: "31/05/2024",
   readTime: "7 min read",
   imageSrc: plane,
-  imageAlt: "test",
+  imageAlt: "Image of one of Air Albania aircrafts",
   paragraphs: [
     {
       text: "Albania, a jewel nestled in the Balkans, boasts stunning coastlines, rugged mountains, and a rich cultural tapestry. Whether you're drawn to its pristine beaches, ancient ruins, or vibrant cities, arriving in Albania is the first step towards an unforgettable adventure.",

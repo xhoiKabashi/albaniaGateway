@@ -2,10 +2,10 @@ import nato from "../../../public/blog/democracy.jpg";
 
 export const blogData = {
   title: "Is Albania a Democratic Country?",
-  date: "18/05/2024",
-  readTime: "3 min read",
+  date: "30/05/2024",
+  readTime: "5 min read",
   imageSrc: nato,
-  imageAlt: "test",
+  imageAlt: "Image of people protesting in the streets",
 
   paragraphs: [
     {

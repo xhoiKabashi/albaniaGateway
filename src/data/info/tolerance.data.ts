@@ -2,10 +2,10 @@ import albaniaTolerance from "../../../public/blog/tolerance.jpg";
 
 export const blogData = {
   title: "Albania and Religious Tolerance",
-  date: "21/05/2024",
-  readTime: "6 min read",
+  date: "31/05/2024",
+  readTime: "8 min read",
   imageSrc: albaniaTolerance,
-  imageAlt: "Religious harmony in Albania",
+  imageAlt: "Image showing the Religious harmony in Albania",
   paragraphs: [
     {
       para: "Albania is renowned for its exceptional level of religious tolerance. Despite its diverse religious composition, the country has a long-standing tradition of peaceful coexistence among different faiths. This culture of mutual respect and harmony is a defining feature of Albanian society.",

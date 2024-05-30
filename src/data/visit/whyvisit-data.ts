@@ -4,10 +4,10 @@ import tirana from "../../../public/tiranaWhyVisit.jpg";
 
 export const blogData = {
   title: "Why visting Albania?",
-  date: "18/05/2024",
-  readTime: "7 min read",
+  date: "31/05/2024",
+  readTime: "8 min read",
   imageSrc: tirana,
-  imageAlt: "test",
+  imageAlt: "Image of Tirana, capital of Albania",
   paragraphs: [
     {
       text: "Albania, a Balkan nation steeped in rich history and dramatic landscapes, boasts a treasure trove of castles that whisper tales of empires risen and fallen. These magnificent structures, scattered like forgotten guardians across the country, offer a glimpse into a bygone era and a chance to embark on a thrilling historical adventure.",

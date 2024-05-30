@@ -11,6 +11,7 @@ import {
 
 export default function page() {
   const estimatedReadingTime = "Vlorë"; // Replace with actual time if needed
+  const alt = "Image of Vlora";
   const mainTitle = "Exploring Vlorë: The Gateway to the Albanian Riviera"; // Replace with actual title
   const contentData = [
     {
@@ -55,6 +56,7 @@ export default function page() {
       estimatedReadingTime={estimatedReadingTime}
       mainTitle={mainTitle}
       imageSrc={imageSrc}
+      alt={alt}
     >
       <Title text="I. Introduction" />
       <SecondTitle text="Brief Overview of the City" />

@@ -11,6 +11,7 @@ import {
 
 export default function page() {
   const estimatedReadingTime = "Tepelena"; // Replace with actual time if needed
+  const alt = "Image of Vjosa River";
   const mainTitle =
     "Discovering Tepelenë: The birthplace of Ali Pasha Tepelena"; // Replace with actual title
   const contentData = [
@@ -56,6 +57,7 @@ export default function page() {
       estimatedReadingTime={estimatedReadingTime}
       mainTitle={mainTitle}
       imageSrc={imageSrc}
+      alt={alt}
     >
       <Title text="I. Introduction" />
       <SecondTitle text="Brief Overview of the City" />

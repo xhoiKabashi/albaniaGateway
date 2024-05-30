@@ -11,6 +11,7 @@ import {
 
 export default function page() {
   const estimatedReadingTime = "Himarë and Dhërmi"; // Replace with actual time if needed
+  const alt = "Image of a Church in Dhermi";
   const mainTitle =
     "Discovering Himarë and Dhërmi: Gems of the Albanian Riviera"; // Replace with actual title
   const contentData = [
@@ -56,6 +57,7 @@ export default function page() {
       estimatedReadingTime={estimatedReadingTime}
       mainTitle={mainTitle}
       imageSrc={imageSrc}
+      alt={alt}
     >
       <Title text="I. Introduction" />
       <SecondTitle text="Brief Overview of the City" />

@@ -11,6 +11,8 @@ import {
 
 export default function page() {
   const estimatedReadingTime = "Korca"; // Replace with actual time if needed
+  const alt = "Image of Korca city center";
+
   const mainTitle =
     "Discovering Korca: The Cultural Heart of Southeastern Albania"; // Replace with actual title
   const contentData = [
@@ -56,6 +58,7 @@ export default function page() {
       estimatedReadingTime={estimatedReadingTime}
       mainTitle={mainTitle}
       imageSrc={imageSrc}
+      alt={alt}
     >
       <Title text="I. Introduction" />
       <SecondTitle text="Brief Overview of the City" />

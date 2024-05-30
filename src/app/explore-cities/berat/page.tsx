@@ -11,6 +11,7 @@ import {
 
 export default function page() {
   const estimatedReadingTime = "Berat"; // Replace with actual time if needed
+  const alt = "Image of Berat City";
   const mainTitle =
     "Discovering Berat: The City of a Thousand Windows (one above another Windows)"; // Replace with actual title
   const contentData = [
@@ -56,6 +57,7 @@ export default function page() {
       estimatedReadingTime={estimatedReadingTime}
       mainTitle={mainTitle}
       imageSrc={imageSrc}
+      alt={alt}
     >
       <Title text="I. Introduction" />
       <SecondTitle text="Brief Overview of the City" />

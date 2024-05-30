@@ -156,7 +156,7 @@ const MapCityCard = ({ city }: CityCardProps) => {
       <div className="relative  h-72 w-80 overflow-hidden">
         <Image
           src={info.imageUrl}
-          alt={info.text}
+          alt={"Image of " + info.text}
           className="w-full rounded-md bg-center"
           layout="fill"
           objectFit="cover" // Ensures the image fits well

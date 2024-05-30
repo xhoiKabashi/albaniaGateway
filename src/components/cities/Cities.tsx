@@ -22,6 +22,7 @@ interface pageTypes {
   mainTitle: string;
   children: any[];
   imageSrc: any;
+  alt: string;
 }
 
 const page = ({
@@ -30,6 +31,7 @@ const page = ({
   mainTitle,
   children,
   imageSrc,
+  alt,
 }: pageTypes) => {
   return (
     <article className="w-full">
@@ -59,7 +61,7 @@ const page = ({
             </div>
             <Image
               src={imageSrc}
-              alt={"test"}
+              alt={alt}
               className="w-full my-12"
               style={{ objectFit: "cover" }}
               priority={true}

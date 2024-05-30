@@ -2,11 +2,11 @@ import nato from "../../../public/blog/eu.jpg";
 
 export const blogData = {
   title: "Is Albania in the EU?",
-  date: "18/05/2024",
+  date: "31/05/2024",
   imageSrc: nato,
-  imageAlt: "test",
+  imageAlt: "Image of the European Union flag",
 
-  readTime: "6 min read",
+  readTime: "7 min read",
   paragraphs: [
     {
       para: "Albania, a country located in Southeast Europe on the Balkan Peninsula, has been on a long and challenging journey towards European Union (EU) membership. While Albania is not yet a member of the EU, the country has made significant strides in its efforts to join the Union. This article explores Albania's path towards EU membership, the current status, and the challenges and opportunities that lie ahead.",

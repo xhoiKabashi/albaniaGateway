@@ -10,8 +10,9 @@ import {
 } from "@/components/cities/TextCities";
 
 export default function page() {
-  const estimatedReadingTime = "Theth"; // Replace with actual time if needed
-  const mainTitle = "Discovering Theth: A Hidden Gem in the Albanian Alps"; // Replace with actual title
+  const estimatedReadingTime = "Theth";
+  const alt = "Image of Theth Church";
+  const mainTitle = "Discovering Theth: A Hidden Gem in the Albanian Alps";
   const contentData = [
     {
       title: "I. Introduction",
@@ -55,6 +56,7 @@ export default function page() {
       estimatedReadingTime={estimatedReadingTime}
       mainTitle={mainTitle}
       imageSrc={imageSrc}
+      alt={alt}
     >
       <Title text="I. Introduction" />
       <SecondTitle text="Brief Overview of the City" />

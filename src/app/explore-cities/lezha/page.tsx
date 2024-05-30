@@ -11,7 +11,8 @@ import {
 
 export default function page() {
   const estimatedReadingTime = "Lezha"; // Replace with actual time if needed
-  const mainTitle = "Exploring Përmet: A Gem of Southern Albania"; // Replace with actual title
+  const alt = "Image of Skanderbeg’s Memorial";
+  const mainTitle = "Exploring Lezha: A Gem of North Albania"; // Replace with actual title
   const contentData = [
     {
       title: "I. Introduction",
@@ -55,6 +56,7 @@ export default function page() {
       estimatedReadingTime={estimatedReadingTime}
       mainTitle={mainTitle}
       imageSrc={imageSrc}
+      alt={alt}
     >
       <Title text="I. Introduction" />
       <SecondTitle text="Brief Overview of the City" />

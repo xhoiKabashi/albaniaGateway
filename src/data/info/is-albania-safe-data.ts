@@ -4,10 +4,10 @@ import nato from "../../../public/blog/policia.jpg";
 
 export const blogData = {
   title: "Is Albania Safe? A Comprehensive Guide for 2024?",
-  date: "18/05/2024",
-  readTime: "3 min read",
+  date: "31/05/2024",
+  readTime: "12 min read",
   imageSrc: nato,
-  imageAlt: "test",
+  imageAlt: "Image of a couple of Police officers",
   paragraphs: [
     {
       para: "Albania, a gem in the Balkan Peninsula, has seen a rise in tourism over the past few years. With its stunning landscapes, rich history, and vibrant culture, it's no wonder travelers are increasingly drawn to this beautiful country. However, safety is a common concern for many potential visitors. This article aims to provide an up-to-date overview of safety in Albania, including crime reports from 2023 and 2024, to help you make an informed decision.",

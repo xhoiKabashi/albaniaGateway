@@ -7,7 +7,7 @@ export const blogData = {
   date: "18/05/2024",
   readTime: "7 min read",
   imageSrc: lek,
-  imageAlt: "test",
+  imageAlt: "Image of the Gjirokaster Castle",
   paragraphs: [
     {
       text: "Albania, a Balkan nation steeped in rich history and dramatic landscapes, boasts a treasure trove of castles that whisper tales of empires risen and fallen. These magnificent structures, scattered like forgotten guardians across the country, offer a glimpse into a bygone era and a chance to embark on a thrilling historical adventure.",
