@@ -3,6 +3,28 @@ import React from "react";
 import BlogPost from "@/components/organisms/blog/TemplateBloge";
 import { ParaBlog, TitleBlog } from "@/components/atoms/TypographyH2";
 import { blogData } from "@/data/visit/whyvisit-data";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Why Visiting Albania?",
+  description:
+    "Discover the beauty and charm of Albania through our comprehensive guide. From its rich history to its breathtaking natural landscapes, Albania offers something for every traveler.",
+  keywords:
+    "Albania, travel, Balkans, adventure, culture, cuisine, hospitality, tourism, hidden gems, travel tips",
+  openGraph: {
+    title: "Why Visiting Albania?",
+    description:
+      "Discover the beauty and charm of Albania through our comprehensive guide. From its rich history to its breathtaking natural landscapes, Albania offers something for every traveler.",
+    url: "https://albaniagateway.com/visit-albania/why-visit-albania",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/tiranaWhyVisit.jpg",
+      width: 1260,
+      height: 800,
+    },
+    locale: "en-EN",
+  },
+};
 
 const page = () => {
   return (
