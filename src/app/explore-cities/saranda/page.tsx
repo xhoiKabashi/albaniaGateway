@@ -8,6 +8,28 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Discovering Sarandë: The Jewel of the Albanian Riviera",
+  description:
+    "Explore Sarandë, a picturesque coastal town in southern Albania, renowned for its stunning beaches, crystal-clear waters, and vibrant nightlife. Plan your trip and experience the beauty of the Albanian Riviera.",
+  keywords:
+    "Sarandë, Saranda, Saranda Albania, Albanian Riviera, Saranda beaches, Saranda attractions, Albania travel, Saranda tourism, Albanian culture",
+  openGraph: {
+    title: "Discovering Sarandë: The Jewel of the Albanian Riviera",
+    description:
+      "Explore Sarandë, a picturesque coastal town in southern Albania, renowned for its stunning beaches, crystal-clear waters, and vibrant nightlife. Plan your trip and experience the beauty of the Albanian Riviera.",
+    url: "https://albaniagateway.com/explore-cities/saranda",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/saranda-image.jpg", // Update with the correct image URL
+      width: 800,
+      height: 600,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Saranda"; // Replace with actual time if needed

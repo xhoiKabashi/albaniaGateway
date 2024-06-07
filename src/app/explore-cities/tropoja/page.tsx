@@ -8,6 +8,28 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Discovering Tropojë: A Hidden Treasure in Northern Albania",
+  description:
+    "Explore the hidden gem of Tropojë in northern Albania with our comprehensive guide. Discover its stunning natural landscapes, rich cultural heritage, and top attractions.",
+  keywords:
+    "Tropojë, Tropoja Albania, Tropojë attractions, Tropojë tourism, things to do in Tropojë, Tropojë travel guide",
+  openGraph: {
+    title: "Discovering Tropojë: A Hidden Treasure in Northern Albania",
+    description:
+      "Explore the hidden gem of Tropojë in northern Albania with our comprehensive guide. Discover its stunning natural landscapes, rich cultural heritage, and top attractions.",
+    url: "https://albaniagateway.com/explore-cities/tropoja",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/tropoje.jpg", // Update with the correct image URL
+      width: 800,
+      height: 600,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Tropoja"; // Replace with actual time if needed

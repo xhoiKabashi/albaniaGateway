@@ -1,6 +1,7 @@
 import React from "react";
 import Cities from "@/components/cities/Cities";
 import imageSrc from "../../../../public/vlora-image.jpg";
+import type { Metadata } from "next";
 import {
   Title,
   SecondTitle,
@@ -8,6 +9,27 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+
+export const metadata: Metadata = {
+  title: "Exploring Vlorë: The Gateway to the Albanian Riviera",
+  description:
+    "Discover Vlorë, a vibrant coastal city in southwestern Albania known for its beautiful beaches, rich history, and lively atmosphere. Explore top attractions, hidden gems, and local tips for an unforgettable experience.",
+  keywords:
+    "Vlorë, Albania, travel to Vlora, tourism, beaches, history, Albanian Riviera, top attractions, hidden gems, travel tips, Vlora in Albania, travel to Vlora",
+  openGraph: {
+    title: "Exploring Vlorë: The Gateway to the Albanian Riviera",
+    description:
+      "Discover Vlorë, a vibrant coastal city in southwestern Albania known for its beautiful beaches, rich history, and lively atmosphere. Explore top attractions, hidden gems, and local tips for an unforgettable experience.",
+    url: "https://albaniagateway.com/explore-cities/vlora",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/vlora-image.jpg",
+      width: 1260,
+      height: 800,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Vlorë"; // Replace with actual time if needed

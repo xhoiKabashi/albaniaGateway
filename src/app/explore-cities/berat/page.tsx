@@ -8,6 +8,28 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Discovering Berat: The City of a Thousand Windows",
+  description:
+    "Explore Berat, Albania's charming and historic city. Known for its stunning Ottoman architecture, picturesque landscapes, and rich cultural heritage, Berat is a must-visit destination.",
+  keywords:
+    "Berat, travel to Berat, Albania blog, Berat travel guide, City of a Thousand Windows, Ottoman architecture, Albanian history, Berat attractions, Berat culture, Berat tourism, historical cities in Albania, UNESCO World Heritage Site, Balkan travel",
+  openGraph: {
+    title: "Discovering Berat: The City of a Thousand Windows",
+    description:
+      "Explore Berat, Albania's charming and historic city. Known for its stunning Ottoman architecture, picturesque landscapes, and rich cultural heritage, Berat is a must-visit destination.",
+    url: "https://albaniagateway.com/explore-cities/berat",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/blog/berat-image.jpg",
+      width: 1260,
+      height: 800,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Berat"; // Replace with actual time if needed

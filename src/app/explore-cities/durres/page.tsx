@@ -8,6 +8,28 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Discover Durrës: Albania's Coastal Gem",
+  description:
+    "Explore Durrës, one of Albania’s most vibrant and historic cities. Known for its expansive beaches, ancient ruins, and bustling port, Durrës offers a unique blend of old-world charm and modern allure.",
+  keywords:
+    "Durrës, travel to Durrës, Albania travel, Durrës travel guide, Durrës attractions, Durrës tourism, Albanian cities, Balkan travel",
+  openGraph: {
+    title: "Discover Durrës: Albania's Coastal Gem",
+    description:
+      "Explore Durrës, one of Albania’s most vibrant and historic cities. Known for its expansive beaches, ancient ruins, and bustling port, Durrës offers a unique blend of old-world charm and modern allure.",
+    url: "https://albaniagateway.com/explore-cities/durres",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/durres.jpg", // Update with the correct image URL
+      width: 800,
+      height: 600,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Durrës"; // Replace with actual time if needed

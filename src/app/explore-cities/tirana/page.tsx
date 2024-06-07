@@ -8,6 +8,28 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Exploring Tirana: A Comprehensive Guide",
+  description:
+    "Discover the vibrant capital of Albania with our comprehensive guide to Tirana. Explore its rich history, vibrant culture, and top attractions.",
+  keywords:
+    "Tirana, Tirana Albania, Tirana attractions, Tirana tourism, things to do in Tirana, Tirana travel guide",
+  openGraph: {
+    title: "Exploring Tirana: A Comprehensive Guide",
+    description:
+      "Discover the vibrant capital of Albania with our comprehensive guide to Tirana. Explore its rich history, vibrant culture, and top attractions.",
+    url: "https://albaniagateway.com/explore-cities/tirana",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/tiranaWhyVisit.jpg", // Update with the correct image URL
+      width: 800,
+      height: 600,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Tirana"; // Replace with actual time if needed

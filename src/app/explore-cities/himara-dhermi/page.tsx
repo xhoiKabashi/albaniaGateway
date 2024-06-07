@@ -8,6 +8,28 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Discovering Himarë and Dhërmi: Gems of the Albanian Riviera",
+  description:
+    "Explore Himarë and Dhërmi, two picturesque coastal towns on the Albanian Riviera, celebrated for their stunning beaches, crystal-clear waters, and charming blend of history and culture.",
+  keywords:
+    "Himarë, Dhërmi, Albanian Riviera, Himarë attractions, Dhërmi attractions, Albania travel, Himarë tourism, Dhërmi tourism, Balkan travel",
+  openGraph: {
+    title: "Discovering Himarë and Dhërmi: Gems of the Albanian Riviera",
+    description:
+      "Explore Himarë and Dhërmi, two picturesque coastal towns on the Albanian Riviera, celebrated for their stunning beaches, crystal-clear waters, and charming blend of history and culture.",
+    url: "https://albaniagateway.com/explore-cities/himara-dhermi",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/dhermi.jpg", // Update with the correct image URL
+      width: 800,
+      height: 600,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Himarë and Dhërmi"; // Replace with actual time if needed

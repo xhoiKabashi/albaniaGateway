@@ -8,6 +8,28 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Exploring Lezha: A Gem of North Albania",
+  description:
+    "Discover Lezhë, a city rich in history and natural beauty. Explore ancient ruins, visit Skanderbeg’s Memorial, and immerse yourself in Albanian culture. Plan your trip and uncover the hidden gem of northern Albania.",
+  keywords:
+    "Lezha, Lezhë, Albania, Albanian history, Skanderbeg, Lezha attractions, Albania travel, Lezhë tourism, North Albania",
+  openGraph: {
+    title: "Exploring Lezha: A Gem of North Albania",
+    description:
+      "Discover Lezhë, a city rich in history and natural beauty. Explore ancient ruins, visit Skanderbeg’s Memorial, and immerse yourself in Albanian culture. Plan your trip and uncover the hidden gem of northern Albania.",
+    url: "https://albaniagateway.com/explore-cities/lezha",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/varri-skenderbehut.jpg", // Update with the correct image URL
+      width: 800,
+      height: 600,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Lezha"; // Replace with actual time if needed

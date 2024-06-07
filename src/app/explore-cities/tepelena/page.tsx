@@ -8,6 +8,28 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Discovering Tepelenë: The birthplace of Ali Pasha Tepelena",
+  description:
+    "Explore Tepelenë, a picturesque town nestled along the Vjosë River in southern Albania. Discover its rich history, cultural heritage, and stunning natural beauty.",
+  keywords:
+    "Tepelena, Tepelena Albania, Southern Albania, Ali Pasha Tepelena, Tepelena attractions, Tepelenë tourism, Vjosë River, Tepelenë history, Tepelenë culture",
+  openGraph: {
+    title: "Discovering Tepelenë: The birthplace of Ali Pasha Tepelena",
+    description:
+      "Explore Tepelenë, a picturesque town nestled along the Vjosë River in southern Albania. Discover its rich history, cultural heritage, and stunning natural beauty.",
+    url: "https://albaniagateway.com/explore-cities/tepelena",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/Vjosa.jpg", // Update with the correct image URL
+      width: 800,
+      height: 600,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Tepelena"; // Replace with actual time if needed

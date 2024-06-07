@@ -8,6 +8,28 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Discover Krujë: The Spirit of Albanian History",
+  description:
+    "Explore Krujë, a city steeped in history and culture. Discover its stunning castle, traditional bazaar, and learn about Albania’s national hero, Skanderbeg. Plan your visit and embark on a journey into the heart of Albanian history.",
+  keywords:
+    "Krujë, Albanian history, Skanderbeg, Krujë attractions, Albania travel, Krujë tourism, Balkan travel",
+  openGraph: {
+    title: "Discover Krujë: The Spirit of Albanian History",
+    description:
+      "Explore Krujë, a city steeped in history and culture. Discover its stunning castle, traditional bazaar, and learn about Albania’s national hero, Skanderbeg. Plan your visit and embark on a journey into the heart of Albanian history.",
+    url: "https://albaniagateway.com/explore-cities/kruja",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/kruje.jpg", // Update with the correct image URL
+      width: 800,
+      height: 600,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Kruja"; // Replace with actual time if needed

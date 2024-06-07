@@ -8,6 +8,28 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Discovering Theth: A Hidden Gem in the Albanian Alps",
+  description:
+    "Explore Theth, a picturesque village nestled in the Albanian Alps. Discover its stunning natural beauty, rich cultural heritage, and outdoor adventures.",
+  keywords:
+    "Theth, Theth Albania, Albanian Alps, Theth village, Theth attractions, Theth tourism, Valbona-Theth trail, Theth National Park",
+  openGraph: {
+    title: "Discovering Theth: A Hidden Gem in the Albanian Alps",
+    description:
+      "Explore Theth, a picturesque village nestled in the Albanian Alps. Discover its stunning natural beauty, rich cultural heritage, and outdoor adventures.",
+    url: "https://albaniagateway.com/explore-cities/theth",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/theth.jpg", // Update with the correct image URL
+      width: 800,
+      height: 600,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Theth";

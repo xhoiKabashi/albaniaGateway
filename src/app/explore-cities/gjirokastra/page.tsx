@@ -8,6 +8,28 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Discovering Gjirokastra: The Stone City of Albania",
+  description:
+    "Explore Gjirokastra, a captivating UNESCO World Heritage site located in southern Albania. Known for its well-preserved Ottoman architecture and rich history, Gjirokastra offers a unique blend of cultural heritage and natural beauty, making it a must-visit destination for travelers.",
+  keywords:
+    "Gjirokastra, travel to Gjirokastra, Albania travel, Gjirokastra travel guide, Gjirokastra attractions, Gjirokastra tourism, Albanian cities, Balkan travel",
+  openGraph: {
+    title: "Discovering Gjirokastra: The Stone City of Albania",
+    description:
+      "Explore Gjirokastra, a captivating UNESCO World Heritage site located in southern Albania. Known for its well-preserved Ottoman architecture and rich history, Gjirokastra offers a unique blend of cultural heritage and natural beauty, making it a must-visit destination for travelers.",
+    url: "https://albaniagateway.com/explore-cities/gjirokastra",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/gjirokaster-image.jpg", // Update with the correct image URL
+      width: 800,
+      height: 600,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Gjirokastra"; // Replace with actual time if needed

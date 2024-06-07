@@ -8,6 +8,28 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Discover Elbasan: A Historic Heart of Albania",
+  description:
+    "Explore Elbasan, a city rich in history and culture, offering a blend of ancient heritage and vibrant modern life. Known for its well-preserved castle, vibrant bazaars, and warm hospitality, Elbasan is an underrated gem waiting to be explored.",
+  keywords:
+    "Elbasan, travel to Elbasan, Albania travel, Elbasan travel guide, Elbasan attractions, Elbasan tourism, Albanian cities, Balkan travel",
+  openGraph: {
+    title: "Discover Elbasan: A Historic Heart of Albania",
+    description:
+      "Explore Elbasan, a city rich in history and culture, offering a blend of ancient heritage and vibrant modern life. Known for its well-preserved castle, vibrant bazaars, and warm hospitality, Elbasan is an underrated gem waiting to be explored.",
+    url: "https://albaniagateway.com/explore-cities/elbasan",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/elbasani.jpg", // Update with the correct image URL
+      width: 800,
+      height: 600,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Elbasan"; // Replace with actual time if needed

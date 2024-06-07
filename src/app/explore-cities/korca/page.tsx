@@ -8,6 +8,28 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Discovering Korçë: The Cultural Heart of Southeastern Albania",
+  description:
+    "Explore Korçë, a city renowned for its rich cultural heritage, vibrant arts scene, and stunning architecture. Discover museums, galleries, festivals, and delicious cuisine in this enchanting destination.",
+  keywords:
+    "Korçë, southeastern Albania, Korçë attractions, Albania travel, Korçë tourism, Balkan travel, cultural heritage",
+  openGraph: {
+    title: "Discovering Korçë: The Cultural Heart of Southeastern Albania",
+    description:
+      "Explore Korçë, a city renowned for its rich cultural heritage, vibrant arts scene, and stunning architecture. Discover museums, galleries, festivals, and delicious cuisine in this enchanting destination.",
+    url: "https://albaniagateway.com/explore-cities/korca",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/korca-image.jpg", // Update with the correct image URL
+      width: 800,
+      height: 600,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Korca"; // Replace with actual time if needed

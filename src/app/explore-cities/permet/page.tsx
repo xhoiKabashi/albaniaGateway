@@ -8,6 +8,28 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Exploring Përmet: A Gem of Southern Albania",
+  description:
+    "Discover Përmet, a hidden gem in southern Albania. Explore its natural thermal baths, scenic landscapes, and vibrant culture. Plan your trip and experience the charm of Përmet.",
+  keywords:
+    "Përmet, Përmet Albania, Southern Albania, thermal baths, Përmet attractions, Albania travel, Përmet tourism, Albanian culture",
+  openGraph: {
+    title: "Exploring Përmet: A Gem of Southern Albania",
+    description:
+      "Discover Përmet, a hidden gem in southern Albania. Explore its natural thermal baths, scenic landscapes, and vibrant culture. Plan your trip and experience the charm of Përmet.",
+    url: "https://albaniagateway.com/explore-cities/permet",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/permet-image.jpg", // Update with the correct image URL
+      width: 800,
+      height: 600,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Përmet"; // Replace with actual time if needed

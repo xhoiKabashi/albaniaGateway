@@ -8,6 +8,28 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Discovering Pogradec: A Lakeside Gem in Albania",
+  description:
+    "Explore Pogradec, a charming city on the shores of Lake Ohrid in southeastern Albania. Discover its natural beauty, rich history, and cultural heritage. Plan your trip and experience the tranquility of Pogradec.",
+  keywords:
+    "Pogradec, Pogradec Albania, Lake Ohrid, Pogradec attractions, Albania travel, Pogradec tourism, Albanian culture",
+  openGraph: {
+    title: "Discovering Pogradec: A Lakeside Gem in Albania",
+    description:
+      "Explore Pogradec, a charming city on the shores of Lake Ohrid in southeastern Albania. Discover its natural beauty, rich history, and cultural heritage. Plan your trip and experience the tranquility of Pogradec.",
+    url: "https://albaniagateway.com/explore-cities/pogradec",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/pogradec.jpg", // Update with the correct image URL
+      width: 800,
+      height: 600,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Pogradec"; // Replace with actual time if needed

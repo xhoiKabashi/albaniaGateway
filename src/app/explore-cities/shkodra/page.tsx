@@ -8,6 +8,29 @@ import {
   ListParagraph,
   Italic,
 } from "@/components/cities/TextCities";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Exploring Shkodër: A Cultural and Historical Gem in Northern Albania",
+  description:
+    "Discover Shkodër, a city steeped in history and culture, nestled between the Accursed Mountains and Lake Shkodër. Plan your trip to explore its historic landmarks, vibrant arts scene, and stunning natural beauty.",
+  keywords:
+    "Shkodra, Shkodër Albania,Shkodra Albania , Northern Albania, Shkodra attractions, Shkodër tourism, Albanian Alps, Shkodër history, Shkodra history, Shkodër culture, Shkodra culture",
+  openGraph: {
+    title:
+      "Exploring Shkodër: A Cultural and Historical Gem in Northern Albania",
+    description:
+      "Discover Shkodër, a city steeped in history and culture, nestled between the Accursed Mountains and Lake Shkodër. Plan your trip to explore its historic landmarks, vibrant arts scene, and stunning natural beauty.",
+    url: "https://albaniagateway.com/explore-cities/shkodra",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/shkoder-card.jpg", // Update with the correct image URL
+      width: 800,
+      height: 600,
+    },
+    locale: "en-EN",
+  },
+};
 
 export default function page() {
   const estimatedReadingTime = "Shkodra"; // Replace with actual time if needed
