@@ -18,6 +18,28 @@ import lezha from "../../../public/varri-skenderbehut.jpg";
 import kruja from "../../../public/kruje.jpg";
 import elbasan from "../../../public/elbasani.jpg";
 import tropoja from "../../../public/tropoje.jpg";
+import type { Metadata } from "next";
+
+export const metadata = {
+  title: "Exploring Albanian Cities: Discover the Richness of Albania",
+  description:
+    "Discover the vibrant cities of Albania, each with its unique charm and attractions. From the historic streets of Shkodër and the coastal beauty of Vlorë to the mountainous paradise of Theth and the cultural richness of Lezhë, explore the best of what Albania has to offer.",
+  keywords:
+    "Albanian cities, travel to Albania, tourism, Shkodër, Vlorë, Theth, Lezhë, top attractions, hidden gems, travel tips, Albania travel guide, explore Albania",
+  openGraph: {
+    title: "Exploring Albanian Cities: Discover the Richness of Albania",
+    description:
+      "Discover the vibrant cities of Albania, each with its unique charm and attractions. From the historic streets of Shkodër and the coastal beauty of Vlorë to the mountainous paradise of Theth and the cultural richness of Lezhë, explore the best of what Albania has to offer.",
+    url: "https://albaniagateway.com/explore-cities",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/tirana-image.jpg",
+      width: 1260,
+      height: 800,
+    },
+    locale: "en-EN",
+  },
+};
 
 const Blog = () => {
   const blogData = [

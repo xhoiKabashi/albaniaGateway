@@ -7,22 +7,30 @@ module.exports = {
   priority: 0.7,
   sitemapSize: 5000,
   exclude: ["/admin/*", "/login"],
+  autoLastmod: true, // Automatically set lastmod
   // Optional: custom transform function to modify the generated sitemap
   transform: async (config, path) => {
-    // Example: Modify the priority for the home page
+    let priority = config.priority;
+    let changefreq = config.changefreq;
+
     if (path === "/") {
-      return {
-        loc: path, // Path of the URL
-        changefreq: "daily",
-        priority: 1.0,
-        lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
-      };
+      priority = 1.0;
+      changefreq = "daily";
+    } else if (path.startsWith("/blog")) {
+      priority = 0.9;
+      changefreq = "weekly";
+    } else if (path.startsWith("/explore-cities")) {
+      priority = 0.8;
+      changefreq = "monthly";
+    } else if (path.startsWith("/visit-albania")) {
+      priority = 0.8;
+      changefreq = "monthly";
     }
 
     return {
-      loc: path,
-      changefreq: config.changefreq,
-      priority: config.priority,
+      loc: path, // Path of the URL
+      changefreq: changefreq,
+      priority: priority,
       lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
     };
   },

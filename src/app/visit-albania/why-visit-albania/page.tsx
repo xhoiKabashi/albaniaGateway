@@ -3,7 +3,7 @@ import React from "react";
 import BlogPost from "@/components/organisms/blog/TemplateBloge";
 import { ParaBlog, TitleBlog } from "@/components/atoms/TypographyH2";
 import { blogData } from "@/data/visit/whyvisit-data";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Why Visiting Albania?",
