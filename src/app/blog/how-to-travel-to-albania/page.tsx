@@ -6,6 +6,8 @@ import { blogData } from "@/data/blog/how-to-travel-to-tirana";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+
+
   title:
     "Exploring Albania: A Comprehensive Guide to Arrival by Sea, Sky, and Land - Your Gateway to the Balkans",
   description:

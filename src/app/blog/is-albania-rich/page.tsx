@@ -6,6 +6,8 @@ import { blogData } from "@/data/info/poor-rich.data";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://albaniagateway.com/"),
+
   title:
     "Is Albania a Rich or Poor Country? - Assessing Albania's Economic Development",
   description:

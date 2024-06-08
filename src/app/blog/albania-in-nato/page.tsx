@@ -6,6 +6,8 @@ import { blogData } from "@/data/info/nato-data";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+
+
   title:
     "Is Albania in NATO? - Albania's Role in the North Atlantic Treaty Organization",
   description:

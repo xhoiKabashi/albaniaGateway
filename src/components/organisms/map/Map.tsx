@@ -87,6 +87,7 @@ export default function Map() {
               alt="Albania map"
               layout="fill"
               objectFit="cover" // Ensures the image fits well
+              priority
             />
           </div>
           {newCities.map((city, index) => (

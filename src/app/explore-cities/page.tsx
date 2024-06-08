@@ -20,7 +20,7 @@ import elbasan from "../../../public/elbasani.jpg";
 import tropoja from "../../../public/tropoje.jpg";
 import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Exploring Albanian Cities: Discover the Richness of Albania",
   description:
     "Discover the vibrant cities of Albania, each with its unique charm and attractions. From the historic streets of Shkodër and the coastal beauty of Vlorë to the mountainous paradise of Theth and the cultural richness of Lezhë, explore the best of what Albania has to offer.",

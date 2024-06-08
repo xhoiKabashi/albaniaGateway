@@ -13,6 +13,28 @@ import policia from "../../../public/blog/policia.jpg";
 import eu from "../../../public/blog/eu.jpg";
 import rich from "../../../public/blog/rich.jpg";
 import tolerance from "../../../public/blog/tolerance.jpg";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Explore Blogs - Albania Gateway",
+  description:
+    "Discover the vibrant cities of Albania, each with its unique charm and attractions. From the historic streets of Shkodër and the coastal beauty of Vlorë to the mountainous paradise of Theth and the cultural richness of Lezhë, explore the best of what Albania has to offer through our insightful blogs.",
+  keywords:
+    "Albanian cities, travel to Albania, tourism, Shkodër, Vlorë, Theth, Lezhë, top attractions, hidden gems, travel tips, Albania travel guide, explore Albania, Albania blogs",
+  openGraph: {
+    title: "Explore Blogs - Albania Gateway",
+    description:
+      "Discover the vibrant cities of Albania, each with its unique charm and attractions. From the historic streets of Shkodër and the coastal beauty of Vlorë to the mountainous paradise of Theth and the cultural richness of Lezhë, explore the best of what Albania has to offer through our insightful blogs.",
+    url: "https://albaniagateway.com/blog",
+    siteName: "Albania Gateway",
+    images: {
+      url: "/blog/Gjirokastër-Castle-1.jpg",
+      width: 1260,
+      height: 800,
+    },
+    locale: "en-EN",
+  },
+};
 
 const Blog = () => {
   const blogData = [

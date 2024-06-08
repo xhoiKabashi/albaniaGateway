@@ -3,23 +3,23 @@ import React from "react";
 import BlogPost from "@/components/organisms/blog/TemplateBloge";
 import { ParaBlog, TitleBlog } from "@/components/atoms/TypographyH2";
 import { blogData } from "@/data/visit/byland-data";
-import LinkToGoogle from "@/components/atoms/Link";
+
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Your Guide to Flying in and Exploring the Land of Eagles",
+  title: "Your Comprehensive Guide to Exploring Albania by Land",
   description:
-    "Soar into Albania with this comprehensive guide to flying in and exploring the land of eagles. Discover the main airports, airlines, flight costs, and visa requirements for your unforgettable journey.",
+    "Discover the main entry points, transportation options, visa requirements, and essential considerations for exploring Albania by land. Embark on an unforgettable journey through Albania's dramatic landscapes and historic towns.",
   keywords:
-    "Albania, flying to Albania, Tirana International Airport, Kukës International Airport Zayed, Vlora International Airport, airlines to Albania, flight costs to Albania,albania visa requirements",
+    "Albania, exploring Albania by land, Albanian land borders, Albania entry points, Albania transportation, Albania visa requirements, Albanian Lek, Albanian adventure",
   openGraph: {
-    title: "Your Guide to Flying in and Exploring the Land of Eagles",
+    title: "Your Comprehensive Guide to Exploring Albania by Land",
     description:
-      "Soar into Albania with this comprehensive guide to flying in and exploring the land of eagles. Discover the main airports, airlines, flight costs, and visa requirements for your unforgettable journey.",
-    url: "https://albaniagateway.com/visit-albania/visit-albania-by-air",
+      "Discover the main entry points, transportation options, visa requirements, and essential considerations for exploring Albania by land. Embark on an unforgettable journey through Albania's dramatic landscapes and historic towns.",
+    url: "https://albaniagateway.com/visit-albania/visit-albania-by-land",
     siteName: "Albania Gateway",
     images: {
-      url: "/air-albania-plane.jpg",
+      url: "/explore-albania-land.jpg",
       width: 1200,
       height: 630,
     },

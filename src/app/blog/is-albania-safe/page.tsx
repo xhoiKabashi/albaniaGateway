@@ -6,6 +6,8 @@ import { blogData } from "@/data/info/is-albania-safe-data";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://albaniagateway.com/"),
+
   title:
     "Is Albania Safe? A Comprehensive Guide for 2024 - Ensuring Safety in Your Albanian Adventure",
   description:
