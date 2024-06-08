@@ -21,7 +21,7 @@ module.exports = {
       changefreq = "weekly";
     } else if (path.startsWith("/explore-cities")) {
       priority = 0.8;
-      changefreq = "monthly";
+      changefreq = "weekly";
     } else if (path.startsWith("/visit-albania")) {
       priority = 0.8;
       changefreq = "monthly";
