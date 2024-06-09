@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Cookies Disclaimer - Albania Gateway",
+  description:
+    "Cookies are small text files that are placed on your device by websites that you visit. They are widely used to make websites work, or work more efficiently",
 };
 
 const disclaimerData = {

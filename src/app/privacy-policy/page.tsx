@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy - Albania Gateway",
+  description:
+    "Welcome to Albania Gateway. We respect your privacy and are committed to protecting your personal data.",
 };
 
 const privacyPolicyData = {
