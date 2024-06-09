@@ -33,7 +33,7 @@ export default function PopUp() {
               </Link>
             </SheetDescription>
             <SheetDescription className=" text-base text-slate-950">
-              <Link href="/visit-albania/why-visit-albania">
+              <Link href="/blog/why-visit-albania">
                 <SheetTrigger>Why Albania?</SheetTrigger>
               </Link>
             </SheetDescription>
@@ -49,22 +49,22 @@ export default function PopUp() {
                   Useful information
                 </AccordionTrigger>
                 <AccordionContent>
-                  <Link href="/visit-albania/e-transport">
+                  <Link href="/blog/e-transport">
                     <SheetTrigger>eTransport</SheetTrigger>
                   </Link>
                 </AccordionContent>
                 <AccordionContent>
-                  <Link href="/visit-albania/visit-albania-by-air">
+                  <Link href="/blog/visit-albania-by-air">
                     <SheetTrigger>by air</SheetTrigger>
                   </Link>
                 </AccordionContent>
                 <AccordionContent>
-                  <Link href="/visit-albania/visit-albania-by-sea">
+                  <Link href="/blog/visit-albania-by-sea">
                     <SheetTrigger>by sea</SheetTrigger>
                   </Link>
                 </AccordionContent>
                 <AccordionContent>
-                  <Link href="/visit-albania/visit-albania-by-land">
+                  <Link href="/blog/visit-albania-by-land">
                     <SheetTrigger>by land</SheetTrigger>
                   </Link>
                 </AccordionContent>

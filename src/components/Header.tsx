@@ -26,7 +26,7 @@ const Header = () => {
         </MenubarMenu>
         <MenubarMenu>
           <MenubarTrigger>
-            <Link href="/visit-albania/why-visit-albania">Why Albania</Link>
+            <Link href="/blog/why-visit-albania">Why Albania</Link>
           </MenubarTrigger>
         </MenubarMenu>
 
@@ -39,19 +39,19 @@ const Header = () => {
         <MenubarMenu>
           <MenubarTrigger>Useful information</MenubarTrigger>
           <MenubarContent>
-            <Link href="/visit-albania/e-transport">
+            <Link href="/blog/e-transport">
               <MenubarItem>eTransport</MenubarItem>
             </Link>
             <MenubarSeparator />
-            <Link href="/visit-albania/visit-albania-by-air">
+            <Link href="/blog/visit-albania-by-air">
               <MenubarItem>Visit by air</MenubarItem>
             </Link>
             <MenubarSeparator />
-            <Link href="/visit-albania/visit-albania-by-sea">
+            <Link href="/blog/visit-albania-by-sea">
               <MenubarItem>Visit by sea</MenubarItem>
             </Link>
             <MenubarSeparator />
-            <Link href="/visit-albania/visit-albania-by-land">
+            <Link href="/blog/visit-albania-by-land">
               <MenubarItem>Visit by land</MenubarItem>
             </Link>
             <MenubarSeparator />

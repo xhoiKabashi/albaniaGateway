@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "Why Visiting Albania?",
     description:
       "Discover the beauty and charm of Albania through our comprehensive guide. From its rich history to its breathtaking natural landscapes, Albania offers something for every traveler.",
-    url: "https://albaniagateway.com/visit-albania/why-visit-albania",
+    url: "https://albaniagateway.com/blog/why-visit-albania",
     siteName: "Albania Gateway",
     images: {
       url: "/tiranaWhyVisit.jpg",

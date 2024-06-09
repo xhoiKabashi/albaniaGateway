@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "Your Comprehensive Guide to Exploring Albania by Land",
     description:
       "Discover the main entry points, transportation options, visa requirements, and essential considerations for exploring Albania by land. Embark on an unforgettable journey through Albania's dramatic landscapes and historic towns.",
-    url: "https://albaniagateway.com/visit-albania/visit-albania-by-land",
+    url: "https://albaniagateway.com/blog/visit-albania-by-land",
     siteName: "Albania Gateway",
     images: {
       url: "/explore-albania-land.jpg",
