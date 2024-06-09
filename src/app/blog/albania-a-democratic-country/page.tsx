@@ -6,7 +6,6 @@ import { blogData } from "@/data/info/democratic";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-
   title: "Is Albania a Democracy? - Explore Albania Like Never Before",
   description:
     "Explore Albania's democratic journey through our blog. From its parliamentary system to the challenges it faces, discover how Albania navigates its path towards European integration.",
@@ -20,6 +19,7 @@ export const metadata: Metadata = {
     siteName: "Albania Gateway",
     images: {
       url: "/blog/democracy.jpg",
+      alt: "Image of Albanians protesting",
       width: 1260,
       height: 800,
     },

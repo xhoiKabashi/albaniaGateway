@@ -26,6 +26,7 @@ export const metadata: Metadata = {
       url: "/dhermi.jpg", // Update with the correct image URL
       width: 800,
       height: 600,
+      alt: "Image of Dherni",
     },
     locale: "en-EN",
   },

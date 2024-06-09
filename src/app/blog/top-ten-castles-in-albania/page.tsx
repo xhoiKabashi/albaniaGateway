@@ -21,6 +21,7 @@ export const metadata: Metadata = {
       url: "/blog/Gjirokastër-Castle-1.jpg",
       width: 1260,
       height: 800,
+      alt: "Gjirokastër Castle",
     },
     locale: "en-EN",
   },

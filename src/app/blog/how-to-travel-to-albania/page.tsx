@@ -6,8 +6,6 @@ import { blogData } from "@/data/blog/how-to-travel-to-tirana";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-
-
   title:
     "Exploring Albania: A Comprehensive Guide to Arrival by Sea, Sky, and Land - Your Gateway to the Balkans",
   description:
@@ -25,6 +23,7 @@ export const metadata: Metadata = {
       url: "/air-albania.jpg",
       width: 1260,
       height: 800,
+      alt: " Image of Air Albania aircraft",
     },
     locale: "en-EN",
   },

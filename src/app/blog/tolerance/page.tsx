@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     images: {
       url: "/blog/tolerance.jpg",
       width: 1260,
+      alt: "Image of Albanian Clerks in Paris",
       height: 800,
     },
     locale: "en-EN",

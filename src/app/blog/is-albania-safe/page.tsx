@@ -25,6 +25,7 @@ export const metadata: Metadata = {
       url: "/blog/policia.jpg",
       width: 1260,
       height: 800,
+      alt: "A couple of Polic officials",
     },
     locale: "en-EN",
   },

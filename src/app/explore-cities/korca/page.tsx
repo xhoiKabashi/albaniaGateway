@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     images: {
       url: "/korca-image.jpg", // Update with the correct image URL
       width: 800,
+      alt: "Image of Korca",
       height: 600,
     },
     locale: "en-EN",

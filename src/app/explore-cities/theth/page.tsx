@@ -27,6 +27,7 @@ export const metadata: Metadata = {
       url: "/theth.jpg", // Update with the correct image URL
       width: 800,
       height: 600,
+      alt: "Image of Theth",
     },
     locale: "en-EN",
   },

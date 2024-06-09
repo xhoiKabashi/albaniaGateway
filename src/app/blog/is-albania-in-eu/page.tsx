@@ -22,6 +22,7 @@ export const metadata: Metadata = {
       url: "/blog/eu.jpg",
       width: 1260,
       height: 800,
+      alt: "Image of EU flag",
     },
     locale: "en-EN",
   },

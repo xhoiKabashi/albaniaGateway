@@ -28,6 +28,7 @@ export const metadata: Metadata = {
       url: "/shkoder-card.jpg", // Update with the correct image URL
       width: 800,
       height: 600,
+      alt: "Image of Shkoder",
     },
     locale: "en-EN",
   },

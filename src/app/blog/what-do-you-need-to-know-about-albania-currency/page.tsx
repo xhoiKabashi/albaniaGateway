@@ -21,6 +21,7 @@ export const metadata: Metadata = {
       url: "/lek.jpg",
       width: 1260,
       height: 800,
+      alt: "Image of Albania Currency",
     },
     locale: "en-EN",
   },

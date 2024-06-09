@@ -21,6 +21,7 @@ export const metadata: Metadata = {
       url: "ferry-durres-port.jpg",
       width: 1200,
       height: 630,
+      alt: "Image of Durres Port",
     },
     locale: "en-EN",
   },

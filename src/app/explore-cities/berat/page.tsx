@@ -26,6 +26,7 @@ export const metadata: Metadata = {
       url: "/blog/berat-image.jpg",
       width: 1260,
       height: 800,
+      alt: "Image of Berat",
     },
     locale: "en-EN",
   },

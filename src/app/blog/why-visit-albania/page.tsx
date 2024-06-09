@@ -22,6 +22,7 @@ export const metadata: Metadata = {
       url: "/tiranaWhyVisit.jpg",
       width: 1260,
       height: 800,
+      alt: "Image of Tirana",
     },
     locale: "en-EN",
   },

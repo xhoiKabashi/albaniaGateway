@@ -27,6 +27,7 @@ export const metadata: Metadata = {
       url: "/vlora-image.jpg",
       width: 1260,
       height: 800,
+      alt: "Image of Vlora",
     },
     locale: "en-EN",
   },

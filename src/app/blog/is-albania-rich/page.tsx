@@ -25,6 +25,8 @@ export const metadata: Metadata = {
       url: "/blog/rich.jpg",
       width: 1260,
       height: 800,
+
+      alt: "Albanian Financial status",
     },
     locale: "en-EN",
   },

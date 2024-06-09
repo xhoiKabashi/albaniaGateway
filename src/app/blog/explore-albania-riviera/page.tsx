@@ -6,8 +6,6 @@ import { blogData } from "@/data/blog/albania-riviera-data";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-
-
   title:
     "A Journey Down the Albanian Riviera - Explore the Hidden Gems of the Ionian Coast",
   description:
@@ -25,6 +23,7 @@ export const metadata: Metadata = {
       url: "/al-riviera-header.jpg",
       width: 1260,
       height: 800,
+      alt: "Image of Albania Riviera",
     },
     locale: "en-EN",
   },

@@ -6,8 +6,6 @@ import { blogData } from "@/data/info/christian.data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-
-
   title:
     "Is Albania a Christian Country? - Explore Albania's Religious Diversity",
   description:
@@ -25,6 +23,7 @@ export const metadata: Metadata = {
       url: "/blog/church.jpg",
       width: 1260,
       height: 800,
+      alt: "Image of a Church in Albania",
     },
     locale: "en-EN",
   },

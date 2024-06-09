@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     siteName: "Albania Gateway",
     images: {
       url: "/tiranaWhyVisit.jpg", // Update with the correct image URL
+      alt: "city of Tirana",
       width: 800,
       height: 600,
     },

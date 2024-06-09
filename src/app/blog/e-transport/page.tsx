@@ -21,6 +21,7 @@ export const metadata: Metadata = {
       url: "/visit/etransport.jpg",
       width: 1260,
       height: 800,
+      alt: "transportation logo",
     },
     locale: "en-EN",
   },
