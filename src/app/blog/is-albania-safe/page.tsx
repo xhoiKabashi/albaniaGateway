@@ -8,8 +8,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL("https://albaniagateway.com/"),
 
-  title:
-    "Is Albania Safe? A Comprehensive Guide for 2024 - Ensuring Safety in Your Albanian Adventure",
+  title: "Is Albania Safe? 2024 Guide for Your Adventure",
   description:
     "Ensure a safe and enjoyable trip to Albania with our comprehensive safety guide for 2024. From crime statistics to tourist safety tips, arm yourself with the latest information to make the most of your Albanian adventure.",
   keywords:

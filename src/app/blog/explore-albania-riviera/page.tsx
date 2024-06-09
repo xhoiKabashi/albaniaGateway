@@ -6,8 +6,7 @@ import { blogData } from "@/data/blog/albania-riviera-data";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "A Journey Down the Albanian Riviera - Explore the Hidden Gems of the Ionian Coast",
+  title: "A Journey Down the Albanian Riviera",
   description:
     "Embark on a breathtaking journey down the Albanian Riviera through our blog post. From the rugged cliffs of Karaburun Peninsula to the pristine beaches of Ksamil, discover the beauty and charm of Albania's southwestern coastline.",
   keywords:

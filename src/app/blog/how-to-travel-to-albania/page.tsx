@@ -6,8 +6,7 @@ import { blogData } from "@/data/blog/how-to-travel-to-tirana";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Exploring Albania: A Comprehensive Guide to Arrival by Sea, Sky, and Land - Your Gateway to the Balkans",
+  title: "A Comprehensive Guide to Arrival by Sea, Sky, and Land",
   description:
     "Discover the various ways to enter Albania through our comprehensive guide. From ferry ports to international airports and land border crossings, explore the diverse entry points and embark on an unforgettable journey through the heart of the Balkans.",
   keywords:

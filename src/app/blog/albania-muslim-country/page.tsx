@@ -6,8 +6,7 @@ import { blogData } from "@/data/info/musilm.data";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Is Albania a Muslim Country? - Exploring Albania's Religious Diversity",
+  title: "Is Albania a Muslim Country?",
   description:
     "Discover the religious landscape of Albania through our blog post. From its historical roots to its modern-day secularism, explore the unique blend of Muslim and Christian traditions in Albania and its culture of religious tolerance.",
   keywords:

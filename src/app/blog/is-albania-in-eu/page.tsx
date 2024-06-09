@@ -5,8 +5,7 @@ import { ParaBlog, TitleBlog } from "@/components/atoms/TypographyH2";
 import { blogData } from "@/data/info/eu-data";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title:
-    "Is Albania in the EU? - Albania's Journey Towards European Union Membership",
+  title: "Is Albania in the EU?",
   description:
     "Explore Albania's aspirations and efforts to join the European Union through our blog post. From key milestones to current challenges and opportunities, delve into Albania's path towards EU membership and its implications for the country and the region.",
   keywords:

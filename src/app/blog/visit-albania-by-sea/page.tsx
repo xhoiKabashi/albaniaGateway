@@ -6,7 +6,7 @@ import { blogData } from "@/data/visit/bysea-data";
 import LinkToGoogle from "@/components/atoms/Link";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Setting Sail for Albania: Your Guide to Arriving by Ferry",
+  title: "Sail to Albania: Your Guide to Arriving by Ferry",
   description:
     "Embark on a maritime adventure to Albania with this comprehensive guide to traveling by ferry. Discover the key ports, routes, ferry companies, ticket prices, and visa requirements for an unforgettable journey.",
   keywords:

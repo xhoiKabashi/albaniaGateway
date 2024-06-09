@@ -6,8 +6,7 @@ import { blogData } from "@/data/info/christian.data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Is Albania a Christian Country? - Explore Albania's Religious Diversity",
+  title: "Is Albania a Christian Country?",
   description:
     "Discover the religious landscape of Albania through our blog post. From its historical roots to modern-day secularism, explore the diverse tapestry of Christian and Muslim traditions in Albania.",
   keywords:

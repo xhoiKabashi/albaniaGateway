@@ -8,8 +8,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL("https://albaniagateway.com/"),
 
-  title:
-    "Is Albania a Rich or Poor Country? - Assessing Albania's Economic Development",
+  title: "Is Albania a Rich?",
   description:
     "Assess Albania's economic status through our blog post. From its growth since the fall of communism to the challenges it faces today, explore the factors shaping Albania's economic landscape and its journey towards prosperity.",
   keywords:

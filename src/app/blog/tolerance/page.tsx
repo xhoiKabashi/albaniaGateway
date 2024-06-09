@@ -7,7 +7,7 @@ import { blogData } from "@/data/info/tolerance.data";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Albania and Religious Tolerance: A Model of Harmony and Coexistence",
+  title: "Albania and Religious Tolerance",
   description:
     "Explore Albania's rich tradition of religious tolerance and coexistence. From its historical background to current initiatives, discover how Albania fosters unity among diverse faiths.",
   keywords:

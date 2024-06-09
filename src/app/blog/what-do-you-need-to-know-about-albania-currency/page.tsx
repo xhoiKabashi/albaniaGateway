@@ -6,7 +6,7 @@ import { blogData } from "@/data/blog/currency-data";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "The Tale of Two Leks: Understanding Albania’s Currency Confusion",
+  title: "Understanding Albania’s Currency Confusion",
   description:
     "Navigating Albania's currency can be tricky due to the historical 'old lek' and 'new lek' terminology. Learn about Albania's official currency, the lek, and how to avoid confusion when making purchases.",
   keywords:

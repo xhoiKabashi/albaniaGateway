@@ -6,7 +6,7 @@ import { blogData } from "@/data/blog/castles-data";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Exploring Albania's Enigmatic Castles: A Journey Through Time",
+  title: "Exploring Albania's Enigmatic Castles",
   description:
     "Embark on a historical adventure through Albania's magnificent castles. From Krujë to Petrela, discover the rich history and dramatic landscapes of these ancient fortresses.",
   keywords:
