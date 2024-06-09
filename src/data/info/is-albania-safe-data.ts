@@ -43,16 +43,16 @@ export const blogData = {
       para: "Preliminary data for the first quarter of 2024 suggests a continuation of the trends observed in 2023:",
     },
     {
-      para: "Overall Crime Rate**: The crime rate in the first quarter of 2024 shows a further 1% decrease compared to the same period in 2023.",
+      para: "Overall Crime Rate: The crime rate in the first quarter of 2024 shows a further 1% decrease compared to the same period in 2023.",
     },
     {
-      para: "Violent Crime**: There has been a slight uptick in violent crime, with a 1.2% increase in reported cases. However, these incidents remain relatively rare.",
+      para: "Violent Crime: There has been a slight uptick in violent crime, with a 1.2% increase in reported cases. However, these incidents remain relatively rare.",
     },
     {
       para: "Theft and Burglary: These crimes have remained steady, with no significant increase or decrease compared to the previous year. Petty theft, especially in tourist-heavy areas, is something to be aware of.",
     },
     {
-      para: "Drug-Related Crimes**: These continue to decline, with a further 2% reduction in reported cases.",
+      para: "Drug-Related Crimes: These continue to decline, with a further 2% reduction in reported cases.",
     },
     {
       title: "Tourist Safety Tips",
@@ -71,7 +71,7 @@ export const blogData = {
       para: "4. Keep Valuables Secure: Use hotel safes for passports, extra cash, and other valuables. Carry only what you need when out exploring.",
     },
     {
-      para: "5. **Respect Local Laws and Customs**: Understanding and respecting local customs and laws can help you avoid misunderstandings or legal issues.",
+      para: "5. Respect Local Laws and Customs: Understanding and respecting local customs and laws can help you avoid misunderstandings or legal issues.",
     },
     {
       title: "Conclusion",

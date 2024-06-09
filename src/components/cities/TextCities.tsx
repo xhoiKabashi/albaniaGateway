@@ -4,16 +4,16 @@ interface textType {
 
 export const Title = ({ text }: textType) => {
   return (
-    <h1 className=" text-xl font-bold  py-6" id={text}>
+    <h2 className=" text-xl font-bold  py-6" id={text}>
       {text}
-    </h1>
+    </h2>
   );
 };
 export const SecondTitle = ({ text }: textType) => {
-  return <h2 className=" text-base font-semibold my-3">{text}</h2>;
+  return <h3 className=" text-base font-semibold my-3">{text}</h3>;
 };
 export const Paragraph = ({ text }: textType) => {
-  return <h1 className=" mb-3">{text}</h1>;
+  return <p className=" mb-3">{text}</p>;
 };
 export const ListParagraph = ({ text }: textType) => {
   return <li>{text}</li>;
