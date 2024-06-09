@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Explore the hidden gem of Tropojë in northern Albania with our comprehensive guide. Discover its stunning natural landscapes, rich cultural heritage, and top attractions.",
   keywords:
-    "Tropojë, Tropoja Albania, Tropojë attractions, Tropojë tourism, things to do in Tropojë, Tropojë travel guide",
+    "Tropoja, Tropoja Albania, Tropojë attractions, Tropojë tourism, things to do in Tropojë, Tropojë travel guide, Tropojë, Albania, Valbona Valley, Albanian Alps, adventure tourism, Tropojë attractions, Tropojë history, Tropojë accommodation, Tropojë travel tips, things to do in Tropojë, Tropojë hidden gems, Tropojë day trips, Tropojë local tips, Tropojë safety tips",
   openGraph: {
     title: "Discovering Tropojë: A Hidden Treasure in Northern Albania",
     description:

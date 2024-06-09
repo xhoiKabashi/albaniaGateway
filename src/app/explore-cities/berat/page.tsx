@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Explore Berat, Albania's charming and historic city. Known for its stunning Ottoman architecture, picturesque landscapes, and rich cultural heritage, Berat is a must-visit destination.",
   keywords:
-    "Berat, travel to Berat, Albania blog, Berat travel guide, City of a Thousand Windows, Ottoman architecture, Albanian history, Berat attractions, Berat culture, Berat tourism, historical cities in Albania, UNESCO World Heritage Site, Balkan travel",
+    "Berat, Berat Albania, Berat attractions, Berat tourism, things to do in Berat, Berat travel guide, Berat Historical Background, Berat Top Attractions, Berat Hidden Gems, Berat Food and Drink, Berat Activities and Experiences, Berat Day Trips and Excursions, Berat Local Tips, Berat Accommodation, Berat Transportation, Berat Cultural Significance, Berat Unique Selling Points, Berat Nightlife, Berat Shopping Areas, Berat Outdoor Activities, Berat Cultural Experiences, Berat Safety Tips, Berat Local Cuisine",
   openGraph: {
     title: "Discovering Berat: The City of a Thousand Windows",
     description:

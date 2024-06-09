@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Explore Himarë and Dhërmi, two picturesque coastal towns on the Albanian Riviera, celebrated for their stunning beaches, crystal-clear waters, and charming blend of history and culture.",
   keywords:
-    "Himarë, Dhërmi, Albanian Riviera, Himarë attractions, Dhërmi attractions, Albania travel, Himarë tourism, Dhërmi tourism, Balkan travel",
+    "Himarë, Himara, Dhermi, Dhërmi, Albanian Riviera, Ionian Sea, beaches, historical sites, nightlife, natural beauty, Gjipe Beach, Jale Beach, Ali Pasha Castle, Monastery of Saint Mary, Gjipe Canyon, local cuisine, seafood, byrek, Tave Kosi, recommended restaurants, Taverna Lefteri, Luciano Restaurant, outdoor activities, hiking, snorkeling, diving, cultural experiences, festivals, traditional music, shopping areas, Sarandë, Vlorë, Butrint National Park, best times to visit, cultural norms, safety tips",
   openGraph: {
     title: "Discovering Himarë and Dhërmi: Gems of the Albanian Riviera",
     description:

@@ -15,7 +15,8 @@ export const metadata: Metadata = {
   description:
     "Explore Theth, a picturesque village nestled in the Albanian Alps. Discover its stunning natural beauty, rich cultural heritage, and outdoor adventures.",
   keywords:
-    "Theth, Theth Albania, Albanian Alps, Theth village, Theth attractions, Theth tourism, Valbona-Theth trail, Theth National Park",
+    "Theth, Albania, Albanian Alps, Theth National Park, Valbona-Theth trail, Blue Eye of Theth, Grunas Waterfall, cultural heritage, outdoor activities, hiking, fishing, swimming, traditional cuisine, Tavë Dheu, Fërgesë, recommended restaurants, Bujtina Polia, Guesthouse Rupa, Villa Gjecaj, major tourist sites, Theth Church, Lock-in Tower, hidden gems, Peaks of the Balkans Trail, local villages, traditional cooking, guided nature walks, local hospitality, best times to visit, cultural norms, safety tips",
+
   openGraph: {
     title: "Discovering Theth: A Hidden Gem in the Albanian Alps",
     description:

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Explore Tepelenë, a picturesque town nestled along the Vjosë River in southern Albania. Discover its rich history, cultural heritage, and stunning natural beauty.",
   keywords:
-    "Tepelena, Tepelena Albania, Southern Albania, Ali Pasha Tepelena, Tepelena attractions, Tepelenë tourism, Vjosë River, Tepelenë history, Tepelenë culture",
+    "Tepelena, Tepelena Albania, Southern Albania, Ali Pasha Tepelena, Tepelena attractions, Tepelenë tourism, Vjosë River, Tepelenë history, Tepelenë culture, Tepelenë, Albania, Vjosë River, Ali Pasha Tepelena, Tepelenë Castle, Ali Pasha's Bridge, historical landmarks, cultural heritage, outdoor activities, hiking, rafting, fishing, local cuisine, Tavë Kosi, Byrek, Pilaf, recommended restaurants, Restaurant Vjosa, outdoor dining, nightlife, Old Bazaar, local crafts, artisan workshops, day trips, Gjirokastër, Blue Eye Spring, Nivicë, best times to visit, cultural norms, safety tips",
   openGraph: {
     title: "Discovering Tepelenë: The birthplace of Ali Pasha Tepelena",
     description:

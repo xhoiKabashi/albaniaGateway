@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Discover Vlorë, a vibrant coastal city in southwestern Albania known for its beautiful beaches, rich history, and lively atmosphere. Explore top attractions, hidden gems, and local tips for an unforgettable experience.",
   keywords:
-    "Vlorë, Albania, travel to Vlora, tourism, beaches, history, Albanian Riviera, top attractions, hidden gems, travel tips, Vlora in Albania, travel to Vlora",
+    "Vlorë, Albania, travel to Vlora, tourism, beaches, history, Albanian Riviera, top attractions, hidden gems, travel tips, Vlora in Albania, travel to Vlora, Albania, Albanian Riviera, beaches, historical landmarks, cultural heritage, travel destination, Independence Monument, Muradie Mosque, Kanina Castle, transportation options, Tirana International Airport, bus services, road conditions, accommodation, Lungomare, City Center, Radhimë, Hotel Partner, Regina Blu Hotel, Vlora Backpackers Hostel, tourist attractions, Kuzum Baba, Flag Square, Ethnographic Museum, Museum of Independence, Historic Museum, hidden gems, Zvernec Island, Orikum, Narta Lagoon, Shushica River Valley, boat tours, local festivals, local cuisine, seafood, Byrek, Tavë Kosi, Restaurant Pulebardha, Ristorante San Giorgio al Porto, Tre Forchette, bars, nightlife, Cuba Libre Beach Club, Mojito Bar, Hemingway Bar, outdoor activities, Lungomare Promenade, Karaburun Peninsula, diving, snorkeling, cultural experiences, theater performances, shopping areas, Old Bazaar, day trips, Himarë, Butrint National Park, Dhermi, best times to visit, cultural norms, safety tips, conclusion",
   openGraph: {
     title: "Exploring Vlorë: The Gateway to the Albanian Riviera",
     description:

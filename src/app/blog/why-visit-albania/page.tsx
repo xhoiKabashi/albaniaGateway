@@ -10,7 +10,8 @@ export const metadata: Metadata = {
   description:
     "Discover the beauty and charm of Albania through our comprehensive guide. From its rich history to its breathtaking natural landscapes, Albania offers something for every traveler.",
   keywords:
-    "Albania, travel, Balkans, adventure, culture, cuisine, hospitality, tourism, hidden gems, travel tips",
+    "Albania, travel, Balkans, adventure, culture, cuisine, hospitality, tourism, hidden gems, travel tips, Albanian Riviera, Albanian Alps, Adriatic Sea, Ionian Sea, Dhermi, Himara, Illyrians, Greeks, Romans, Byzantines, Ottomans, Durres, Gjirokastër, Berat, Butrint, Tirana, Byrek, Tavë Kosi, affordable, budget, people, hiking, kayaking, Osumi Canyons, paragliding, mountain biking, scuba diving, uncrowded, unique destinations, travel guide",
+
   openGraph: {
     title: "Why Visiting Albania?",
     description:

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Discover the vibrant capital of Albania with our comprehensive guide to Tirana. Explore its rich history, vibrant culture, and top attractions.",
   keywords:
-    "Tirana, Tirana Albania, Tirana attractions, Tirana tourism, things to do in Tirana, Tirana travel guide",
+    "Tirana, Tirana Albania, Tirana attractions, Tirana tourism, things to do in Tirana, Tirana travel guide, Tirana Historical Background, Tirana Top Attractions, Tirana Hidden Gems, Tirana Food and Drink, Tirana Activities and Experiences, Tirana Day Trips and Excursions, Tirana Local Tips, Tirana Accommodation, Tirana Transportation, Tirana Cultural Significance, Tirana Unique Selling Points, Tirana Nightlife, Tirana Shopping Areas, Tirana Outdoor Activities, Tirana Cultural Experiences, Tirana Safety Tips, Tirana Local Cuisine",
   openGraph: {
     title: "Exploring Tirana: A Comprehensive Guide",
     description:

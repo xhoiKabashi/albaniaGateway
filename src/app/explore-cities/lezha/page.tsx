@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Discover Lezhë, a city rich in history and natural beauty. Explore ancient ruins, visit Skanderbeg’s Memorial, and immerse yourself in Albanian culture. Plan your trip and uncover the hidden gem of northern Albania.",
   keywords:
-    "Lezha, Lezhë, Albania, Albanian history, Skanderbeg, Lezha attractions, Albania travel, Lezhë tourism, North Albania",
+    "Lezhë, Albania, Lezhë Castle, Skanderbeg’s Memorial, St. Nicholas Cathedral, Lissus, League of Lezhë, historical landmarks, cultural significance, natural beauty, transportation options, travel tips, accommodations, top attractions, hidden gems, local favorites, food and drink, outdoor activities, cultural experiences, day trips, local tips, safety tips",
   openGraph: {
     title: "Exploring Lezha: A Gem of North Albania",
     description:

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Explore Durrës, one of Albania’s most vibrant and historic cities. Known for its expansive beaches, ancient ruins, and bustling port, Durrës offers a unique blend of old-world charm and modern allure.",
   keywords:
-    "Durrës, travel to Durrës, Albania travel, Durrës travel guide, Durrës attractions, Durrës tourism, Albanian cities, Balkan travel",
+    "Durrës, Albania, Adriatic coast, beaches, historical landmarks, Durres Amphitheater, Venetian Tower, Durrës Castle, transportation options, Tirana International Airport, train services, bus routes, road conditions, accommodation, City Center, Beachfront, Durres Plazh, hotels, hostels, vacation rentals, Hotel Adriatik, Vila Verde Beach Hotel, Durrës Hostel, tourist attractions, Durrës Archaeological Museum, Ethnographic Museum, Cape of Rodon, Kallmi Beach, Taulantia Promenade, Old Bazaar, wine tasting, local markets, local cuisine, seafood, Tave Kosi, Fërgesë, Vertigo restaurant, Gusto di Mare & Sushi Time, 2 Kitarrat restaurant, bars, nightlife, Zgara e Durrësit, Bar Restorant Charlie’s, outdoor activities, hiking, parks, cultural experiences, theaters, festivals, shopping areas, day trips, Kruja, Tirana, Apollonia, best times to visit, cultural norms, safety tips, conclusion",
   openGraph: {
     title: "Discover Durrës: Albania's Coastal Gem",
     description:

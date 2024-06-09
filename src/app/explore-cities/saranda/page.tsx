@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Explore Sarandë, a picturesque coastal town in southern Albania, renowned for its stunning beaches, crystal-clear waters, and vibrant nightlife. Plan your trip and experience the beauty of the Albanian Riviera.",
   keywords:
-    "Sarandë, Saranda, Saranda Albania, Albanian Riviera, Saranda beaches, Saranda attractions, Albania travel, Saranda tourism, Albanian culture",
+    "Sarandë, Albania, Albanian Riviera, beaches, historical landmarks, Butrint National Park, Lekuresi Castle, Synagogue Complex, transportation options, Corfu International Airport, ferry services, bus routes, road conditions, accommodation, City Center, Lekuresi Area, Ksamil, Hotel Brilant, Hotel Demi, Bora Bora Hotel Ksamil, tourist attractions, Sarandë Promenade, Monastery of 40 Saints, Sarandë Synagogue, museums, Butrint Museum, Ethnographic Museum, hidden gems, Kakome Beach, Phoenice Archaeological Park, Mirror Beach, Monastery Beach, boat tours, wine tasting, local cuisine, seafood, Byrek, Tave Kosi, Taverna Laberia, Restaurant Limani, Guvat Bar & Restaurant, bars, nightlife, Havana Beach Club, Orange Lounge Bar, Mango Beach Bar, outdoor activities, Sarandë Beach, hiking, snorkeling, diving, cultural experiences, local festivals, theater performances, shopping areas, Sarandë Promenade, farmers markets, day trips, Gjirokastër, Himarë, Dhermi, best times to visit, cultural norms, safety tips, conclusion",
   openGraph: {
     title: "Discovering Sarandë: The Jewel of the Albanian Riviera",
     description:

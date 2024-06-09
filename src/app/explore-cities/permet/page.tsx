@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Discover Përmet, a hidden gem in southern Albania. Explore its natural thermal baths, scenic landscapes, and vibrant culture. Plan your trip and experience the charm of Përmet.",
   keywords:
-    "Përmet, Përmet Albania, Southern Albania, thermal baths, Përmet attractions, Albania travel, Përmet tourism, Albanian culture",
+    "Përmet, Albania, thermal baths, Vjosë River, cultural heritage, natural beauty, Bënja Thermal Baths, Përmet Castle, Kisha e Labovës, transportation options, bus routes, road conditions, accommodation, Hotel Ramizi, Guesthouse Kotoni, Villa Kala, tourist attractions, Old Bazaar, Përmet Museum, Bridge of Katiu, hidden gems, Blue Eye Spring, Canyon of Langarica, local favorites, Përmeti wine, traditional music, cooking classes, folklore evenings, local cuisine, Tavë Kosi, Flija, Pispili, recommended restaurants, Restaurant Sofra Përmetare, Restaurant Antigonea, outdoor activities, rafting, hiking, cycling, cultural experiences, festivals, shopping areas, Përmet Bazaar, weekly market, day trips, Benja Thermal Pools, Blue Eye Spring, Kelcyra Gorge, best times to visit, cultural norms, safety tips, conclusion",
   openGraph: {
     title: "Exploring Përmet: A Gem of Southern Albania",
     description:

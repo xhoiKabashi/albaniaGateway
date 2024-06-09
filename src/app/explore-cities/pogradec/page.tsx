@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Explore Pogradec, a charming city on the shores of Lake Ohrid in southeastern Albania. Discover its natural beauty, rich history, and cultural heritage. Plan your trip and experience the tranquility of Pogradec.",
   keywords:
-    "Pogradec, Pogradec Albania, Lake Ohrid, Pogradec attractions, Albania travel, Pogradec tourism, Albanian culture",
+    "Pogradec, Albania, Lake Ohrid, cultural heritage, natural beauty, Koran fish, Pogradec Castle, Drilon Springs, Tushemisht Village, transportation options, Tirana International Airport, bus routes, road conditions, accommodation, lakeside promenade, Tushemisht, hotels, guesthouses, vacation rentals, Hotel Pogradeci, Enkelana Hotel, Vila Sigal, tourist attractions, Sveti Naum Monastery, museums, National Museum of Medieval Art, Museum of Natural Sciences, hidden gems, Lini Peninsula, Golik Bridge, local markets, boat rides, traditional cooking classes, local cuisine, Tavë Kosi, Pispili, recommended restaurants, Restaurant Pogradeci, Dallga Restaurant, Hotel Millennium Restaurant, bars, nightlife, Bar Restorant Kashta, Sherlock Irish Pub Café, outdoor activities, hiking, swimming, fishing, cultural experiences, Lake Day Festival, handicraft markets, day trips, Korçë, Voskopoja, Lake Ohrid Boat Tour, best times to visit, cultural norms, safety tips, conclusion",
   openGraph: {
     title: "Discovering Pogradec: A Lakeside Gem in Albania",
     description:

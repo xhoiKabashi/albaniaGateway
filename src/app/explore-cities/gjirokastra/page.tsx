@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Explore Gjirokastra, a captivating UNESCO World Heritage site located in southern Albania. Known for its well-preserved Ottoman architecture and rich history, Gjirokastra offers a unique blend of cultural heritage and natural beauty, making it a must-visit destination for travelers.",
   keywords:
-    "Gjirokastra, travel to Gjirokastra, Albania travel, Gjirokastra travel guide, Gjirokastra attractions, Gjirokastra tourism, Albanian cities, Balkan travel",
+    "Gjirokastra, Albania, UNESCO World Heritage Site, Ottoman architecture, Drino River valley, cultural heritage, travel destination, historical background, Gjirokastër Castle, Zekate House, Ethnographic Museum, transportation options, Tirana International Airport, bus services, road conditions, accommodation, Old Bazaar Area, Castle Vicinity, Hotel Gjirokastër, Hotel Kalemi, Stone City Hostel, tourist attractions, Skenduli House, St. Michael’s Church, Gjirokastër Museum, Ismail Kadare's House, Antigonea Archaeological Park, Cold War Tunnel, local cuisine, Qifqi, Burek, Taverna Kuka, Restaurant Kujtimi, Bar Restorant Gjirokastra, Café Bar Çajupi, Kantina Wine Bar, outdoor activities, Drino Valley Hikes, Viroi Lake, cultural experiences, Gjirokastër National Folklore Festival, local handicrafts, shopping areas, Old Bazaar, weekly farmers market, day trips, Blue Eye Spring, Butrint National Park, best times to visit, cultural norms, safety tips, conclusion, travel to Gjirokastra, Albania travel, Gjirokastra travel guide, Gjirokastra attractions, Gjirokastra tourism, Albanian cities, Balkan travel,",
   openGraph: {
     title: "Discovering Gjirokastra: The Stone City of Albania",
     description:

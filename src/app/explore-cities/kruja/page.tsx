@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Explore Krujë, a city steeped in history and culture. Discover its stunning castle, traditional bazaar, and learn about Albania’s national hero, Skanderbeg. Plan your visit and embark on a journey into the heart of Albanian history.",
   keywords:
-    "Krujë, Albanian history, Skanderbeg, Krujë attractions, Albania travel, Krujë tourism, Balkan travel",
+    "Kruja, Albanian history, Skanderbeg, Krujë attractions, Albania travel, Krujë tourism, Balkan travel, Krujë, Albania, Krujë Castle, Skanderbeg Museum, Ethnographic Museum, historical landmarks, cultural significance, transportation options, travel tips, accommodations, top attractions, hidden gems, local favorites, food and drink, outdoor activities, cultural experiences, day trips, local tips, safety tips",
   openGraph: {
     title: "Discover Krujë: The Spirit of Albanian History",
     description:

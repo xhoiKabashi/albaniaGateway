@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Explore Elbasan, a city rich in history and culture, offering a blend of ancient heritage and vibrant modern life. Known for its well-preserved castle, vibrant bazaars, and warm hospitality, Elbasan is an underrated gem waiting to be explored.",
   keywords:
-    "Elbasan, travel to Elbasan, Albania travel, Elbasan travel guide, Elbasan attractions, Elbasan tourism, Albanian cities, Balkan travel",
+    "Elbasan, Albania, Elbasan Castle, King Mosque, Via Egnatia, Ethnographic Museum, Elbasan cuisine, Elbasan attractions, Elbasan history, travel tips for Elbasan, things to do in Elbasan, Elbasan accommodation, Elbasan hidden gems, Elbasan day trips, Elbasan local tips, Elbasan safety tips",
   openGraph: {
     title: "Discover Elbasan: A Historic Heart of Albania",
     description:

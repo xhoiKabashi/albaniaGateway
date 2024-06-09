@@ -15,7 +15,8 @@ export const metadata: Metadata = {
   description:
     "Discover Shkodër, a city steeped in history and culture, nestled between the Accursed Mountains and Lake Shkodër. Plan your trip to explore its historic landmarks, vibrant arts scene, and stunning natural beauty.",
   keywords:
-    "Shkodra, Shkodër Albania,Shkodra Albania , Northern Albania, Shkodra attractions, Shkodër tourism, Albanian Alps, Shkodër history, Shkodra history, Shkodër culture, Shkodra culture",
+    "Shkodër, Shkodër Albania, Shkodër attractions, Shkodër tourism, things to do in Shkodër, Shkodër travel guide, Shkodër Historical Background, Shkodër Top Attractions, Shkodër Hidden Gems, Shkodër Food and Drink, Shkodër Activities and Experiences, Shkodër Day Trips and Excursions, Shkodër Local Tips, Shkodër Accommodation, Shkodër Transportation, Shkodër Cultural Significance, Shkodër Unique Selling Points, Shkodër Nightlife, Shkodër Shopping Areas, Shkodër Outdoor Activities, Shkodër Cultural Experiences, Shkodër Safety Tips, Shkodër Local Cuisine",
+
   openGraph: {
     title:
       "Exploring Shkodër: A Cultural and Historical Gem in Northern Albania",

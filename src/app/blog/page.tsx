@@ -105,7 +105,7 @@ const Blog = () => {
     {
       imageUrl: eu,
       date: "May 26",
-      title: "Is Albania Safe?",
+      title: "Is Albania in EU?",
       href: "/blog/is-albania-in-eu",
       alt: "Image of European Union flag",
     },

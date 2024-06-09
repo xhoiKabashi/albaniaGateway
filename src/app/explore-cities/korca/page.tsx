@@ -11,11 +11,11 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Discovering Korçë: The Cultural Heart of Southeastern Albania",
+  title: "Discovering Korca: The Cultural Heart of Southeastern Albania",
   description:
-    "Explore Korçë, a city renowned for its rich cultural heritage, vibrant arts scene, and stunning architecture. Discover museums, galleries, festivals, and delicious cuisine in this enchanting destination.",
+    "Explore Korca, a city renowned for its rich cultural heritage, vibrant arts scene, and stunning architecture. Discover museums, galleries, festivals, and delicious cuisine in this enchanting destination.",
   keywords:
-    "Korçë, southeastern Albania, Korçë attractions, Albania travel, Korçë tourism, Balkan travel, cultural heritage",
+    "Korçë, Korca, Albania, cultural heritage, arts scene, architecture, festivals, Korca beer, First Albanian School, Orthodox Cathedral, transportation options, Tirana International Airport, bus routes, road conditions, accommodation, City Center, Pazari i Vjetër, hotels, guesthouses, vacation rentals, Life Gallery Hotel, Hotel Regency, Hotel Vila Alfa, tourist attractions, National Museum of Medieval Art, Red Tower, Morava Mountain, Vithkuq Village, Shën Naum Spring, Korça Brewery, traditional serenades, culinary workshops, local cuisine, lakror, Tavë Kosi, recommended restaurants, Taverna Vasili, FindFour, Life Gallery Restaurant, bars, nightlife, Bar Republika, Bulevard Café, Korça Brewery Bar, outdoor activities, hiking, cycling, fishing, cultural experiences, Korçë Carnival, Korçë Beer Festival, shopping areas, Old Bazaar, local markets, day trips, Voskopoja, Dardha, best times to visit, cultural norms, safety tips, conclusion",
   openGraph: {
     title: "Discovering Korçë: The Cultural Heart of Southeastern Albania",
     description:
