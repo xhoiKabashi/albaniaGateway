@@ -16,7 +16,7 @@ export const Paragraph = ({ text }: textType) => {
   return <p className=" mb-3">{text}</p>;
 };
 export const ListParagraph = ({ text }: textType) => {
-  return <li>{text}</li>;
+  return <p>{text}</p>;
 };
 export const Italic = ({ text }: textType) => {
   return <i className=" italic">{text}</i>;
