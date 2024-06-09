@@ -27,7 +27,6 @@ export default function WhyVisitTirana() {
         href={"/blog/why-visit-albania"}
         className=" bg-sky-500 text-white px-2  rounded-lg"
       >
-        {" "}
         Read more
       </Link>
     </div>

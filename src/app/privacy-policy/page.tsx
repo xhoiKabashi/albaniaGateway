@@ -1,5 +1,11 @@
 import GeneralTextTemplate from "@/components/organisms/general/GeneralTextTemplate";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy - Albania Gateway",
+};
+
 const privacyPolicyData = {
   mainTitle: "Privacy Policy",
   sections: [

@@ -1,4 +1,9 @@
 import GeneralTextTemplate from "@/components/organisms/general/GeneralTextTemplate";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Cookies Disclaimer - Albania Gateway",
+};
 
 const disclaimerData = {
   mainTitle: "Disclaimer",
