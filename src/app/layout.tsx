@@ -23,6 +23,10 @@ export default function RootLayout({
           name="google-site-verification"
           content="Wx9coW9tvSLgearsbbTbC0G3nJAUJSBn-n82OXCS3cY"
         />
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-8349642777565149"
+        ></meta>
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-B0ZGCTMFWE"
