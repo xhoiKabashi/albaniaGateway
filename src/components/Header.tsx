@@ -29,7 +29,11 @@ const Header = () => {
             <Link href="/blog/why-visit-albania">Why Albania</Link>
           </MenubarTrigger>
         </MenubarMenu>
-
+        <MenubarMenu>
+          <MenubarTrigger>
+            <Link href="/food-beverage">Food & Drinks</Link>
+          </MenubarTrigger>
+        </MenubarMenu>
         <MenubarMenu>
           <MenubarTrigger>
             <Link href="/explore-cities">Explore Cities</Link>
